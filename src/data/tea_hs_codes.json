@@ -1,0 +1,161 @@
+{
+  "source_file": "HS PROJECT OVERVIEW(1).pdf",
+  "source_section": "0902 — Tea",
+  "source_note": "Extracted from the uploaded PDF. Descriptions are preserved from the source text; no additional classification rules were inferred.",
+  "codes": [
+    {
+      "hs_code": "0902",
+      "parent_code": null,
+      "level": "heading",
+      "category": "Tea",
+      "description": "Tea, whether or not flavoured."
+    },
+    {
+      "hs_code": "090210",
+      "parent_code": "0902",
+      "level": "subheading",
+      "category": "Green tea (not fermented)",
+      "description": "Green tea (not fermented), in immediate packings of a content not exceeding 3 kg."
+    },
+    {
+      "hs_code": "09021010",
+      "parent_code": "090210",
+      "level": "national_line",
+      "category": "Green tea",
+      "description": "Contents not exceeding 25 g."
+    },
+    {
+      "hs_code": "09021020",
+      "parent_code": "090210",
+      "level": "national_line",
+      "category": "Green tea",
+      "description": "Contents exceeding 25 g but not exceeding 1 kg."
+    },
+    {
+      "hs_code": "09021030",
+      "parent_code": "090210",
+      "level": "national_line",
+      "category": "Green tea",
+      "description": "Contents exceeding 1 kg but not exceeding 3 kg."
+    },
+    {
+      "hs_code": "09021090",
+      "parent_code": "090210",
+      "level": "national_line",
+      "category": "Green tea",
+      "description": "Other."
+    },
+    {
+      "hs_code": "09022010",
+      "parent_code": "0902",
+      "level": "national_line",
+      "category": "Other green tea (not fermented)",
+      "description": "Packets exceeding 3 kg but not exceeding 20 kg."
+    },
+    {
+      "hs_code": "09022020",
+      "parent_code": "0902",
+      "level": "national_line",
+      "category": "Green tea",
+      "description": "Green tea in bulk."
+    },
+    {
+      "hs_code": "09022030",
+      "parent_code": "0902",
+      "level": "national_line",
+      "category": "Green tea",
+      "description": "Green tea agglomerated in forms such as ball, brick and tablets."
+    },
+    {
+      "hs_code": "09022040",
+      "parent_code": "0902",
+      "level": "national_line",
+      "category": "Green tea",
+      "description": "Green tea waste."
+    },
+    {
+      "hs_code": "09022090",
+      "parent_code": "0902",
+      "level": "national_line",
+      "category": "Green tea",
+      "description": "Other."
+    },
+    {
+      "hs_code": "09023010",
+      "parent_code": "0902",
+      "level": "national_line",
+      "category": "Black tea (fermented) and partly fermented tea",
+      "description": "In immediate packings not exceeding 25 g."
+    },
+    {
+      "hs_code": "09023020",
+      "parent_code": "0902",
+      "level": "national_line",
+      "category": "Black tea (fermented) and partly fermented tea",
+      "description": "Contents exceeding 25 g but not exceeding 1 kg."
+    },
+    {
+      "hs_code": "09023030",
+      "parent_code": "0902",
+      "level": "national_line",
+      "category": "Black tea (fermented) and partly fermented tea",
+      "description": "Contents exceeding 1 kg but not exceeding 3 kg."
+    },
+    {
+      "hs_code": "09023090",
+      "parent_code": "0902",
+      "level": "national_line",
+      "category": "Black tea (fermented) and partly fermented tea",
+      "description": "Other."
+    },
+    {
+      "hs_code": "09024010",
+      "parent_code": "0902",
+      "level": "national_line",
+      "category": "Other black tea/partly fermented tea",
+      "description": "Content exceeding 3 kg but not exceeding 20 kg."
+    },
+    {
+      "hs_code": "09024020",
+      "parent_code": "0902",
+      "level": "national_line",
+      "category": "Black tea",
+      "description": "Black tea, leaf in bulk."
+    },
+    {
+      "hs_code": "09024030",
+      "parent_code": "0902",
+      "level": "national_line",
+      "category": "Black tea",
+      "description": "Black tea, dust in bulk."
+    },
+    {
+      "hs_code": "09024040",
+      "parent_code": "0902",
+      "level": "national_line",
+      "category": "Black tea",
+      "description": "Tea bags."
+    },
+    {
+      "hs_code": "09024050",
+      "parent_code": "0902",
+      "level": "national_line",
+      "category": "Black tea",
+      "description": "Black tea agglomerated in forms such as ball, brick and tablets."
+    },
+    {
+      "hs_code": "09024060",
+      "parent_code": "0902",
+      "level": "national_line",
+      "category": "Black tea",
+      "description": "Black tea waste."
+    },
+    {
+      "hs_code": "09024090",
+      "parent_code": "0902",
+      "level": "national_line",
+      "category": "Black tea",
+      "description": "Other."
+    }
+  ]
+}

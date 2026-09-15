@@ -1,0 +1,1277 @@
+{
+  "source_file": "HS PROJECT OVERVIEW.pdf",
+  "source_section": "0904–0910 — Spices",
+  "source_note": "Normalized rule specifications derived strictly from Headings 0904–0910 schedule (PDF pages 8–12). Each rule contains internal IDs, target HS codes, source descriptions, explicitly supported conditions, and source references. Rules with ambiguous fallback boundaries are annotated. 'Other' lines are NOT universal catch-alls and require explicit scope clarification before use as fallbacks.",
+  "required_attributes": [
+    "heading",
+    "spice_type",
+    "crushed_or_ground",
+    "sub_type",
+    "botanical_type",
+    "form",
+    "quality",
+    "processing_state",
+    "size_category"
+  ],
+  "rules": [
+    {
+      "rule_id": "SPC-001",
+      "priority": 200,
+      "heading": "0904",
+      "conditions": {
+        "spice_type": "pepper",
+        "botanical_type": "piper",
+        "crushed_or_ground": false,
+        "sub_type": "long_pepper"
+      },
+      "output_code": "09041110",
+      "description": "Pepper, long, neither crushed nor ground.",
+      "source_reference": "PDF page 8: 0904 11 10"
+    },
+    {
+      "rule_id": "SPC-002",
+      "priority": 199,
+      "heading": "0904",
+      "conditions": {
+        "spice_type": "pepper",
+        "botanical_type": "piper",
+        "crushed_or_ground": false,
+        "sub_type": "light_black_pepper"
+      },
+      "output_code": "09041120",
+      "description": "Light black pepper, neither crushed nor ground.",
+      "source_reference": "PDF page 8: 0904 11 20"
+    },
+    {
+      "rule_id": "SPC-003",
+      "priority": 198,
+      "heading": "0904",
+      "conditions": {
+        "spice_type": "pepper",
+        "botanical_type": "piper",
+        "crushed_or_ground": false,
+        "sub_type": "black_pepper_garbled"
+      },
+      "output_code": "09041130",
+      "description": "Black pepper, garbled, neither crushed nor ground.",
+      "source_reference": "PDF page 8: 0904 11 30"
+    },
+    {
+      "rule_id": "SPC-004",
+      "priority": 197,
+      "heading": "0904",
+      "conditions": {
+        "spice_type": "pepper",
+        "botanical_type": "piper",
+        "crushed_or_ground": false,
+        "sub_type": "black_pepper_ungarbled"
+      },
+      "output_code": "09041140",
+      "description": "Black pepper ungarbled, neither crushed nor ground.",
+      "source_reference": "PDF page 8: 0904 11 40"
+    },
+    {
+      "rule_id": "SPC-005",
+      "priority": 196,
+      "heading": "0904",
+      "conditions": {
+        "spice_type": "pepper",
+        "botanical_type": "piper",
+        "crushed_or_ground": false,
+        "sub_type": "green_pepper_dehydrated"
+      },
+      "output_code": "09041150",
+      "description": "Green pepper, dehydrated, neither crushed nor ground.",
+      "source_reference": "PDF page 8: 0904 11 50"
+    },
+    {
+      "rule_id": "SPC-006",
+      "priority": 195,
+      "heading": "0904",
+      "conditions": {
+        "spice_type": "pepper",
+        "botanical_type": "piper",
+        "crushed_or_ground": false,
+        "sub_type": "pinheads"
+      },
+      "output_code": "09041160",
+      "description": "Pepper pinheads, neither crushed nor ground.",
+      "source_reference": "PDF page 8: 0904 11 60"
+    },
+    {
+      "rule_id": "SPC-007",
+      "priority": 194,
+      "heading": "0904",
+      "conditions": {
+        "spice_type": "pepper",
+        "botanical_type": "piper",
+        "crushed_or_ground": false,
+        "sub_type": "green_pepper_frozen_or_dried"
+      },
+      "output_code": "09041170",
+      "description": "Green pepper, frozen or dried, neither crushed nor ground.",
+      "source_reference": "PDF page 8: 0904 11 70"
+    },
+    {
+      "rule_id": "SPC-008",
+      "priority": 193,
+      "heading": "0904",
+      "conditions": {
+        "spice_type": "pepper",
+        "botanical_type": "piper",
+        "crushed_or_ground": false,
+        "sub_type": "non_green_frozen"
+      },
+      "output_code": "09041180",
+      "description": "Pepper other than green, frozen, neither crushed nor ground.",
+      "source_reference": "PDF page 8: 0904 11 80"
+    },
+    {
+      "rule_id": "SPC-009",
+      "priority": 180,
+      "heading": "0904",
+      "conditions": {
+        "spice_type": "pepper",
+        "botanical_type": "piper",
+        "crushed_or_ground": false,
+        "fallback_within_090411": true
+      },
+      "output_code": "09041190",
+      "description": "Pepper, other, neither crushed nor ground.",
+      "source_reference": "PDF page 8: 0904 11 90",
+      "notes": "REQUIRES SOURCE CLARIFICATION: 'Other' within 0904 11 — covers Piper pepper varieties not explicitly listed (SPC-001 through SPC-008). Exact scope boundary not defined by source."
+    },
+    {
+      "rule_id": "SPC-010",
+      "priority": 192,
+      "heading": "0904",
+      "conditions": {
+        "spice_type": "pepper",
+        "botanical_type": "piper",
+        "crushed_or_ground": true
+      },
+      "output_code": "09041200",
+      "description": "Pepper, crushed or ground.",
+      "source_reference": "PDF page 8: 0904 12 00"
+    },
+    {
+      "rule_id": "SPC-011",
+      "priority": 191,
+      "heading": "0904",
+      "conditions": {
+        "spice_type": "capsicum_pimenta",
+        "botanical_type": "capsicum",
+        "crushed_or_ground": false,
+        "processing_state": "dried"
+      },
+      "output_code": "09042110",
+      "description": "Dried, neither crushed nor ground, of genus Capsicum.",
+      "source_reference": "PDF page 8: 0904 21 10"
+    },
+    {
+      "rule_id": "SPC-012",
+      "priority": 190,
+      "heading": "0904",
+      "conditions": {
+        "spice_type": "capsicum_pimenta",
+        "botanical_type": "pimenta",
+        "crushed_or_ground": false,
+        "processing_state": "dried"
+      },
+      "output_code": "09042120",
+      "description": "Dried, neither crushed nor ground, of genus Pimenta.",
+      "source_reference": "PDF page 8: 0904 21 20"
+    },
+    {
+      "rule_id": "SPC-013",
+      "priority": 189,
+      "heading": "0904",
+      "conditions": {
+        "spice_type": "capsicum_pimenta",
+        "botanical_type": "capsicum",
+        "crushed_or_ground": true,
+        "form": "chilly_powder"
+      },
+      "output_code": "09042211",
+      "description": "Crushed or ground, of genus Capsicum, chilly powder.",
+      "source_reference": "PDF page 8: 0904 22 11"
+    },
+    {
+      "rule_id": "SPC-014",
+      "priority": 188,
+      "heading": "0904",
+      "conditions": {
+        "spice_type": "capsicum_pimenta",
+        "botanical_type": "capsicum",
+        "crushed_or_ground": true,
+        "form": "chilly_seeds"
+      },
+      "output_code": "09042212",
+      "description": "Crushed or ground, of genus Capsicum, chilly seeds.",
+      "source_reference": "PDF page 8: 0904 22 12"
+    },
+    {
+      "rule_id": "SPC-015",
+      "priority": 175,
+      "heading": "0904",
+      "conditions": {
+        "spice_type": "capsicum_pimenta",
+        "botanical_type": "capsicum",
+        "crushed_or_ground": true,
+        "fallback_within_090422_capsicum": true
+      },
+      "output_code": "09042219",
+      "description": "Crushed or ground, of genus Capsicum, other.",
+      "source_reference": "PDF page 8: 0904 22 19",
+      "notes": "REQUIRES SOURCE CLARIFICATION: 'Other' within crushed/ground Capsicum — covers forms not specifically listed as chilly powder or chilly seeds."
+    },
+    {
+      "rule_id": "SPC-016",
+      "priority": 187,
+      "heading": "0904",
+      "conditions": {
+        "spice_type": "capsicum_pimenta",
+        "botanical_type": "pimenta",
+        "crushed_or_ground": true,
+        "form": "powder"
+      },
+      "output_code": "09042221",
+      "description": "Crushed or ground, of genus Pimenta, powder.",
+      "source_reference": "PDF page 8: 0904 22 21"
+    },
+    {
+      "rule_id": "SPC-017",
+      "priority": 174,
+      "heading": "0904",
+      "conditions": {
+        "spice_type": "capsicum_pimenta",
+        "botanical_type": "pimenta",
+        "crushed_or_ground": true,
+        "fallback_within_090422_pimenta": true
+      },
+      "output_code": "09042229",
+      "description": "Crushed or ground, of genus Pimenta, other.",
+      "source_reference": "PDF page 8: 0904 22 29",
+      "notes": "REQUIRES SOURCE CLARIFICATION: 'Other' within crushed/ground Pimenta — covers forms not specifically listed as powder."
+    },
+
+    {
+      "rule_id": "SPC-018",
+      "priority": 170,
+      "heading": "0905",
+      "conditions": {
+        "spice_type": "vanilla",
+        "crushed_or_ground": false
+      },
+      "output_code": "09051000",
+      "description": "Vanilla, neither crushed nor ground.",
+      "source_reference": "PDF page 9: 0905 10 00"
+    },
+    {
+      "rule_id": "SPC-019",
+      "priority": 169,
+      "heading": "0905",
+      "conditions": {
+        "spice_type": "vanilla",
+        "crushed_or_ground": true
+      },
+      "output_code": "09052000",
+      "description": "Vanilla, crushed or ground.",
+      "source_reference": "PDF page 9: 0905 20 00"
+    },
+
+    {
+      "rule_id": "SPC-020",
+      "priority": 168,
+      "heading": "0906",
+      "conditions": {
+        "spice_type": "cinnamon",
+        "botanical_type": "cinnamomum_zeylanicum",
+        "crushed_or_ground": false,
+        "form": "bark"
+      },
+      "output_code": "09061110",
+      "description": "Cinnamon bark, neither crushed nor ground, Cinnamomum zeylanicum Blume.",
+      "source_reference": "PDF page 9: 0906 11 10"
+    },
+    {
+      "rule_id": "SPC-021",
+      "priority": 167,
+      "heading": "0906",
+      "conditions": {
+        "spice_type": "cinnamon",
+        "botanical_type": "cinnamomum_zeylanicum",
+        "crushed_or_ground": false,
+        "form": "tree_flowers"
+      },
+      "output_code": "09061120",
+      "description": "Cinnamon tree flowers, neither crushed nor ground, Cinnamomum zeylanicum Blume.",
+      "source_reference": "PDF page 9: 0906 11 20"
+    },
+    {
+      "rule_id": "SPC-022",
+      "priority": 155,
+      "heading": "0906",
+      "conditions": {
+        "spice_type": "cinnamon",
+        "botanical_type": "cinnamomum_zeylanicum",
+        "crushed_or_ground": false,
+        "fallback_within_090611": true
+      },
+      "output_code": "09061190",
+      "description": "Other under 0906 11.",
+      "source_reference": "PDF page 9: 0906 11 90",
+      "notes": "REQUIRES SOURCE CLARIFICATION: 'Other' within Cinnamomum zeylanicum, neither crushed nor ground — covers presentations not specifically listed as bark or tree flowers."
+    },
+    {
+      "rule_id": "SPC-023",
+      "priority": 166,
+      "heading": "0906",
+      "conditions": {
+        "spice_type": "cinnamon",
+        "botanical_type": "cassia",
+        "crushed_or_ground": false
+      },
+      "output_code": "09061910",
+      "description": "Cassia, neither crushed nor ground.",
+      "source_reference": "PDF page 9: 0906 19 10"
+    },
+    {
+      "rule_id": "SPC-024",
+      "priority": 154,
+      "heading": "0906",
+      "conditions": {
+        "spice_type": "cinnamon",
+        "crushed_or_ground": false,
+        "fallback_within_090619": true
+      },
+      "output_code": "09061990",
+      "description": "Other, neither crushed nor ground.",
+      "source_reference": "PDF page 9: 0906 19 90",
+      "notes": "REQUIRES SOURCE CLARIFICATION: 'Other' within cinnamon, neither crushed nor ground — covers cinnamon types not Cinnamomum zeylanicum and not cassia."
+    },
+    {
+      "rule_id": "SPC-025",
+      "priority": 165,
+      "heading": "0906",
+      "conditions": {
+        "spice_type": "cinnamon",
+        "crushed_or_ground": true
+      },
+      "output_code": "09062000",
+      "description": "Cinnamon/cinnamon-tree flowers, crushed or ground.",
+      "source_reference": "PDF page 9: 0906 20 00"
+    },
+
+    {
+      "rule_id": "SPC-026",
+      "priority": 164,
+      "heading": "0907",
+      "conditions": {
+        "spice_type": "cloves",
+        "crushed_or_ground": false,
+        "processing_state": "extracted"
+      },
+      "output_code": "09071010",
+      "description": "Cloves, whole fruit/cloves/stems, neither crushed nor ground, extracted.",
+      "source_reference": "PDF page 9: 0907 10 10"
+    },
+    {
+      "rule_id": "SPC-027",
+      "priority": 163,
+      "heading": "0907",
+      "conditions": {
+        "spice_type": "cloves",
+        "crushed_or_ground": false,
+        "processing_state": "not_extracted",
+        "form": "not_stem"
+      },
+      "output_code": "09071020",
+      "description": "Cloves, neither crushed nor ground, not extracted (other than stem).",
+      "source_reference": "PDF page 9: 0907 10 20"
+    },
+    {
+      "rule_id": "SPC-028",
+      "priority": 162,
+      "heading": "0907",
+      "conditions": {
+        "spice_type": "cloves",
+        "crushed_or_ground": false,
+        "form": "stem"
+      },
+      "output_code": "09071030",
+      "description": "Clove stem, neither crushed nor ground.",
+      "source_reference": "PDF page 9: 0907 10 30"
+    },
+    {
+      "rule_id": "SPC-029",
+      "priority": 150,
+      "heading": "0907",
+      "conditions": {
+        "spice_type": "cloves",
+        "crushed_or_ground": false,
+        "fallback_within_090710": true
+      },
+      "output_code": "09071090",
+      "description": "Other, neither crushed nor ground.",
+      "source_reference": "PDF page 9: 0907 10 90",
+      "notes": "REQUIRES SOURCE CLARIFICATION: 'Other' within cloves, neither crushed nor ground — covers presentations not specifically listed."
+    },
+    {
+      "rule_id": "SPC-030",
+      "priority": 161,
+      "heading": "0907",
+      "conditions": {
+        "spice_type": "cloves",
+        "crushed_or_ground": true
+      },
+      "output_code": "09072000",
+      "description": "Cloves, crushed or ground.",
+      "source_reference": "PDF page 9: 0907 20 00"
+    },
+
+    {
+      "rule_id": "SPC-031",
+      "priority": 160,
+      "heading": "0908",
+      "conditions": {
+        "spice_type": "nutmeg",
+        "crushed_or_ground": false,
+        "form": "in_shell"
+      },
+      "output_code": "09081110",
+      "description": "Nutmeg, neither crushed nor ground, in shell.",
+      "source_reference": "PDF page 9: 0908 11 10"
+    },
+    {
+      "rule_id": "SPC-032",
+      "priority": 159,
+      "heading": "0908",
+      "conditions": {
+        "spice_type": "nutmeg",
+        "crushed_or_ground": false,
+        "form": "shelled"
+      },
+      "output_code": "09081120",
+      "description": "Nutmeg, neither crushed nor ground, shelled.",
+      "source_reference": "PDF page 9: 0908 11 20"
+    },
+    {
+      "rule_id": "SPC-033",
+      "priority": 158,
+      "heading": "0908",
+      "conditions": {
+        "spice_type": "nutmeg",
+        "crushed_or_ground": true
+      },
+      "output_code": "09081200",
+      "description": "Nutmeg, crushed or ground.",
+      "source_reference": "PDF page 9: 0908 12 00"
+    },
+    {
+      "rule_id": "SPC-034",
+      "priority": 157,
+      "heading": "0908",
+      "conditions": {
+        "spice_type": "mace",
+        "crushed_or_ground": false
+      },
+      "output_code": "09082100",
+      "description": "Mace, neither crushed nor ground.",
+      "source_reference": "PDF page 9: 0908 21 00"
+    },
+    {
+      "rule_id": "SPC-035",
+      "priority": 156,
+      "heading": "0908",
+      "conditions": {
+        "spice_type": "mace",
+        "crushed_or_ground": true
+      },
+      "output_code": "09082200",
+      "description": "Mace, crushed or ground.",
+      "source_reference": "PDF page 10: 0908 22 00"
+    },
+    {
+      "rule_id": "SPC-036",
+      "priority": 155,
+      "heading": "0908",
+      "conditions": {
+        "spice_type": "cardamom",
+        "crushed_or_ground": false,
+        "size_category": "large"
+      },
+      "output_code": "09083110",
+      "description": "Cardamoms, neither crushed nor ground, large (amomum).",
+      "source_reference": "PDF page 10: 0908 31 10"
+    },
+    {
+      "rule_id": "SPC-037",
+      "priority": 154,
+      "heading": "0908",
+      "conditions": {
+        "spice_type": "cardamom",
+        "crushed_or_ground": false,
+        "size_category": "small",
+        "sub_type": "alleppey_green"
+      },
+      "output_code": "09083120",
+      "description": "Cardamoms, neither crushed nor ground, small (elettaria), alleppey green.",
+      "source_reference": "PDF page 10: 0908 31 20"
+    },
+    {
+      "rule_id": "SPC-038",
+      "priority": 153,
+      "heading": "0908",
+      "conditions": {
+        "spice_type": "cardamom",
+        "crushed_or_ground": false,
+        "size_category": "small",
+        "sub_type": "coorg_green"
+      },
+      "output_code": "09083130",
+      "description": "Cardamoms, neither crushed nor ground, small, coorg green.",
+      "source_reference": "PDF page 10: 0908 31 30"
+    },
+    {
+      "rule_id": "SPC-039",
+      "priority": 152,
+      "heading": "0908",
+      "conditions": {
+        "spice_type": "cardamom",
+        "crushed_or_ground": false,
+        "size_category": "small",
+        "sub_type": "bleached_half_bleached_bleachable"
+      },
+      "output_code": "09083140",
+      "description": "Cardamoms, neither crushed nor ground, small, bleached/half bleached/bleachable.",
+      "source_reference": "PDF page 10: 0908 31 40"
+    },
+    {
+      "rule_id": "SPC-040",
+      "priority": 151,
+      "heading": "0908",
+      "conditions": {
+        "spice_type": "cardamom",
+        "crushed_or_ground": false,
+        "size_category": "small",
+        "sub_type": "mixed"
+      },
+      "output_code": "09083150",
+      "description": "Cardamoms, neither crushed nor ground, small, mixed.",
+      "source_reference": "PDF page 10: 0908 31 50"
+    },
+    {
+      "rule_id": "SPC-041",
+      "priority": 140,
+      "heading": "0908",
+      "conditions": {
+        "spice_type": "cardamom",
+        "crushed_or_ground": false,
+        "fallback_within_090831": true
+      },
+      "output_code": "09083190",
+      "description": "Cardamoms, neither crushed nor ground, other.",
+      "source_reference": "PDF page 10: 0908 31 90",
+      "notes": "REQUIRES SOURCE CLARIFICATION: 'Other' within cardamoms, neither crushed nor ground — covers types/subtypes not specifically listed."
+    },
+    {
+      "rule_id": "SPC-042",
+      "priority": 149,
+      "heading": "0908",
+      "conditions": {
+        "spice_type": "cardamom",
+        "crushed_or_ground": true,
+        "form": "powder"
+      },
+      "output_code": "09083210",
+      "description": "Cardamoms, crushed or ground, powder.",
+      "source_reference": "PDF page 10: 0908 32 10"
+    },
+    {
+      "rule_id": "SPC-043",
+      "priority": 148,
+      "heading": "0908",
+      "conditions": {
+        "spice_type": "cardamom",
+        "crushed_or_ground": true,
+        "form": "small_cardamom_seeds"
+      },
+      "output_code": "09083220",
+      "description": "Cardamoms, crushed or ground, small cardamom seeds.",
+      "source_reference": "PDF page 10: 0908 32 20"
+    },
+    {
+      "rule_id": "SPC-044",
+      "priority": 147,
+      "heading": "0908",
+      "conditions": {
+        "spice_type": "cardamom",
+        "crushed_or_ground": true,
+        "form": "husk"
+      },
+      "output_code": "09083230",
+      "description": "Cardamoms, crushed or ground, cardamom husk.",
+      "source_reference": "PDF page 10: 0908 32 30"
+    },
+    {
+      "rule_id": "SPC-045",
+      "priority": 138,
+      "heading": "0908",
+      "conditions": {
+        "spice_type": "cardamom",
+        "crushed_or_ground": true,
+        "fallback_within_090832": true
+      },
+      "output_code": "09083290",
+      "description": "Cardamoms, crushed or ground, other.",
+      "source_reference": "PDF page 10: 0908 32 90",
+      "notes": "REQUIRES SOURCE CLARIFICATION: 'Other' within cardamoms, crushed or ground — covers forms not specifically listed as powder, seeds, or husk."
+    },
+
+    {
+      "rule_id": "SPC-046",
+      "priority": 137,
+      "heading": "0909",
+      "conditions": {
+        "spice_type": "coriander",
+        "crushed_or_ground": false,
+        "quality": "seed_quality"
+      },
+      "output_code": "09092110",
+      "description": "Seeds of coriander, neither crushed nor ground, of seed quality.",
+      "source_reference": "PDF page 10: 0909 21 10"
+    },
+    {
+      "rule_id": "SPC-047",
+      "priority": 130,
+      "heading": "0909",
+      "conditions": {
+        "spice_type": "coriander",
+        "crushed_or_ground": false,
+        "fallback_within_090921": true
+      },
+      "output_code": "09092190",
+      "description": "Seeds of coriander, neither crushed nor ground, other.",
+      "source_reference": "PDF page 10: 0909 21 90",
+      "notes": "REQUIRES SOURCE CLARIFICATION: 'Other' within coriander seeds, neither crushed nor ground — covers quality other than 'seed quality'. Exact boundary of 'seed quality' not defined by source."
+    },
+    {
+      "rule_id": "SPC-048",
+      "priority": 136,
+      "heading": "0909",
+      "conditions": {
+        "spice_type": "coriander",
+        "crushed_or_ground": true
+      },
+      "output_code": "09092200",
+      "description": "Seeds of coriander, crushed or ground.",
+      "source_reference": "PDF page 10: 0909 22 00"
+    },
+    {
+      "rule_id": "SPC-049",
+      "priority": 135,
+      "heading": "0909",
+      "conditions": {
+        "spice_type": "cumin",
+        "crushed_or_ground": false,
+        "sub_type": "black",
+        "quality": "seed_quality"
+      },
+      "output_code": "09093111",
+      "description": "Seeds of cumin, neither crushed nor ground, cumin black, of seed quality.",
+      "source_reference": "PDF page 10: 0909 31 11"
+    },
+    {
+      "rule_id": "SPC-050",
+      "priority": 128,
+      "heading": "0909",
+      "conditions": {
+        "spice_type": "cumin",
+        "crushed_or_ground": false,
+        "sub_type": "black",
+        "fallback_within_cumin_black": true
+      },
+      "output_code": "09093119",
+      "description": "Seeds of cumin, neither crushed nor ground, cumin black, other.",
+      "source_reference": "PDF page 10: 0909 31 19",
+      "notes": "REQUIRES SOURCE CLARIFICATION: 'Other' within black cumin, not crushed/ground — covers quality other than 'seed quality'."
+    },
+    {
+      "rule_id": "SPC-051",
+      "priority": 134,
+      "heading": "0909",
+      "conditions": {
+        "spice_type": "cumin",
+        "crushed_or_ground": false,
+        "sub_type": "other_than_black",
+        "quality": "seed_quality"
+      },
+      "output_code": "09093121",
+      "description": "Seeds of cumin, neither crushed nor ground, cumin other than black, of seed quality.",
+      "source_reference": "PDF page 10: 0909 31 21"
+    },
+    {
+      "rule_id": "SPC-052",
+      "priority": 127,
+      "heading": "0909",
+      "conditions": {
+        "spice_type": "cumin",
+        "crushed_or_ground": false,
+        "sub_type": "other_than_black",
+        "fallback_within_cumin_other": true
+      },
+      "output_code": "09093129",
+      "description": "Seeds of cumin, neither crushed nor ground, cumin other than black, other.",
+      "source_reference": "PDF page 10: 0909 31 29",
+      "notes": "REQUIRES SOURCE CLARIFICATION: 'Other' within non-black cumin, not crushed/ground — covers quality other than 'seed quality'."
+    },
+    {
+      "rule_id": "SPC-053",
+      "priority": 133,
+      "heading": "0909",
+      "conditions": {
+        "spice_type": "cumin",
+        "crushed_or_ground": true
+      },
+      "output_code": "09093200",
+      "description": "Seeds of cumin, crushed or ground.",
+      "source_reference": "PDF page 10: 0909 32 00"
+    },
+    {
+      "rule_id": "SPC-054",
+      "priority": 132,
+      "heading": "0909",
+      "conditions": {
+        "spice_type": "anise",
+        "crushed_or_ground": false,
+        "quality": "seed_quality"
+      },
+      "output_code": "09096111",
+      "description": "Seeds of anise, neither crushed nor ground, of seed quality.",
+      "source_reference": "PDF page 11: 0909 61 11"
+    },
+    {
+      "rule_id": "SPC-055",
+      "priority": 125,
+      "heading": "0909",
+      "conditions": {
+        "spice_type": "anise",
+        "crushed_or_ground": false,
+        "fallback_within_anise": true
+      },
+      "output_code": "09096119",
+      "description": "Seeds of anise, neither crushed nor ground, other.",
+      "source_reference": "PDF page 11: 0909 61 19",
+      "notes": "REQUIRES SOURCE CLARIFICATION: 'Other' within anise seeds, not crushed/ground."
+    },
+    {
+      "rule_id": "SPC-056",
+      "priority": 131,
+      "heading": "0909",
+      "conditions": {
+        "spice_type": "badian",
+        "crushed_or_ground": false,
+        "quality": "seed_quality"
+      },
+      "output_code": "09096121",
+      "description": "Seeds of badian, neither crushed nor ground, of seed quality.",
+      "source_reference": "PDF page 11: 0909 61 21"
+    },
+    {
+      "rule_id": "SPC-057",
+      "priority": 124,
+      "heading": "0909",
+      "conditions": {
+        "spice_type": "badian",
+        "crushed_or_ground": false,
+        "fallback_within_badian": true
+      },
+      "output_code": "09096129",
+      "description": "Seeds of badian, neither crushed nor ground, other.",
+      "source_reference": "PDF page 11: 0909 61 29",
+      "notes": "REQUIRES SOURCE CLARIFICATION: 'Other' within badian seeds, not crushed/ground."
+    },
+    {
+      "rule_id": "SPC-058",
+      "priority": 130,
+      "heading": "0909",
+      "conditions": {
+        "spice_type": "caraway_or_fennel",
+        "crushed_or_ground": false,
+        "quality": "seed_quality"
+      },
+      "output_code": "09096131",
+      "description": "Seeds of caraway or fennel, neither crushed nor ground, of seed quality.",
+      "source_reference": "PDF page 11: 0909 61 31"
+    },
+    {
+      "rule_id": "SPC-059",
+      "priority": 123,
+      "heading": "0909",
+      "conditions": {
+        "spice_type": "caraway_or_fennel",
+        "crushed_or_ground": false,
+        "fallback_within_caraway_fennel": true
+      },
+      "output_code": "09096139",
+      "description": "Seeds of caraway or fennel, neither crushed nor ground, other.",
+      "source_reference": "PDF page 11: 0909 61 39",
+      "notes": "REQUIRES SOURCE CLARIFICATION: 'Other' within caraway/fennel seeds, not crushed/ground."
+    },
+    {
+      "rule_id": "SPC-060",
+      "priority": 129,
+      "heading": "0909",
+      "conditions": {
+        "spice_type": "juniper_berries",
+        "crushed_or_ground": false,
+        "quality": "seed_quality"
+      },
+      "output_code": "09096141",
+      "description": "Juniper berries, neither crushed nor ground, of seed quality.",
+      "source_reference": "PDF page 11: 0909 61 41"
+    },
+    {
+      "rule_id": "SPC-061",
+      "priority": 122,
+      "heading": "0909",
+      "conditions": {
+        "spice_type": "juniper_berries",
+        "crushed_or_ground": false,
+        "fallback_within_juniper": true
+      },
+      "output_code": "09096149",
+      "description": "Juniper berries, neither crushed nor ground, other.",
+      "source_reference": "PDF page 11: 0909 61 49",
+      "notes": "REQUIRES SOURCE CLARIFICATION: 'Other' within juniper berries, not crushed/ground."
+    },
+    {
+      "rule_id": "SPC-062",
+      "priority": 128,
+      "heading": "0909",
+      "conditions": {
+        "spice_type": "anise",
+        "crushed_or_ground": true
+      },
+      "output_code": "09096210",
+      "description": "Anise, crushed or ground.",
+      "source_reference": "PDF page 11: 0909 62 10"
+    },
+    {
+      "rule_id": "SPC-063",
+      "priority": 127,
+      "heading": "0909",
+      "conditions": {
+        "spice_type": "badian",
+        "crushed_or_ground": true
+      },
+      "output_code": "09096220",
+      "description": "Badian, crushed or ground.",
+      "source_reference": "PDF page 11: 0909 62 20"
+    },
+    {
+      "rule_id": "SPC-064",
+      "priority": 126,
+      "heading": "0909",
+      "conditions": {
+        "spice_type": "caraway_or_fennel",
+        "crushed_or_ground": true
+      },
+      "output_code": "09096230",
+      "description": "Caraway or fennel, crushed or ground.",
+      "source_reference": "PDF page 11: 0909 62 30"
+    },
+    {
+      "rule_id": "SPC-065",
+      "priority": 125,
+      "heading": "0909",
+      "conditions": {
+        "spice_type": "juniper_berries",
+        "crushed_or_ground": true
+      },
+      "output_code": "09096240",
+      "description": "Juniper berries, crushed or ground.",
+      "source_reference": "PDF page 11: 0909 62 40"
+    },
+
+    {
+      "rule_id": "SPC-066",
+      "priority": 120,
+      "heading": "0910",
+      "conditions": {
+        "spice_type": "ginger",
+        "crushed_or_ground": false,
+        "processing_state": "fresh"
+      },
+      "output_code": "09101110",
+      "description": "Fresh ginger, neither crushed nor ground.",
+      "source_reference": "PDF page 11: 0910 11 10"
+    },
+    {
+      "rule_id": "SPC-067",
+      "priority": 119,
+      "heading": "0910",
+      "conditions": {
+        "spice_type": "ginger",
+        "crushed_or_ground": false,
+        "processing_state": "dried",
+        "sub_type": "unbleached"
+      },
+      "output_code": "09101120",
+      "description": "Dried ginger, unbleached, neither crushed nor ground.",
+      "source_reference": "PDF page 11: 0910 11 20"
+    },
+    {
+      "rule_id": "SPC-068",
+      "priority": 118,
+      "heading": "0910",
+      "conditions": {
+        "spice_type": "ginger",
+        "crushed_or_ground": false,
+        "processing_state": "dried",
+        "sub_type": "bleached"
+      },
+      "output_code": "09101130",
+      "description": "Dried ginger, bleached, neither crushed nor ground.",
+      "source_reference": "PDF page 11: 0910 11 30"
+    },
+    {
+      "rule_id": "SPC-069",
+      "priority": 110,
+      "heading": "0910",
+      "conditions": {
+        "spice_type": "ginger",
+        "crushed_or_ground": false,
+        "fallback_within_091011": true
+      },
+      "output_code": "09101190",
+      "description": "Ginger, other, neither crushed nor ground.",
+      "source_reference": "PDF page 11: 0910 11 90",
+      "notes": "REQUIRES SOURCE CLARIFICATION: 'Other' within ginger, not crushed/ground — covers presentations not specifically listed as fresh, dried unbleached, or dried bleached."
+    },
+    {
+      "rule_id": "SPC-070",
+      "priority": 117,
+      "heading": "0910",
+      "conditions": {
+        "spice_type": "ginger",
+        "crushed_or_ground": true,
+        "form": "powder"
+      },
+      "output_code": "09101210",
+      "description": "Ginger, crushed or ground, powder.",
+      "source_reference": "PDF page 11: 0910 12 10"
+    },
+    {
+      "rule_id": "SPC-071",
+      "priority": 109,
+      "heading": "0910",
+      "conditions": {
+        "spice_type": "ginger",
+        "crushed_or_ground": true,
+        "fallback_within_091012": true
+      },
+      "output_code": "09101290",
+      "description": "Ginger, crushed or ground, other.",
+      "source_reference": "PDF page 11: 0910 12 90",
+      "notes": "REQUIRES SOURCE CLARIFICATION: 'Other' within ginger, crushed or ground — covers forms other than powder."
+    },
+    {
+      "rule_id": "SPC-072",
+      "priority": 116,
+      "heading": "0910",
+      "conditions": {
+        "spice_type": "saffron",
+        "form": "stigma"
+      },
+      "output_code": "09102010",
+      "description": "Saffron stigma.",
+      "source_reference": "PDF page 11: 0910 20 10"
+    },
+    {
+      "rule_id": "SPC-073",
+      "priority": 115,
+      "heading": "0910",
+      "conditions": {
+        "spice_type": "saffron",
+        "form": "stamen"
+      },
+      "output_code": "09102020",
+      "description": "Saffron stamen.",
+      "source_reference": "PDF page 11: 0910 20 20"
+    },
+    {
+      "rule_id": "SPC-074",
+      "priority": 108,
+      "heading": "0910",
+      "conditions": {
+        "spice_type": "saffron",
+        "fallback_within_091020": true
+      },
+      "output_code": "09102090",
+      "description": "Saffron, other.",
+      "source_reference": "PDF page 11: 0910 20 90",
+      "notes": "REQUIRES SOURCE CLARIFICATION: 'Other' within saffron — covers forms not specifically listed as stigma or stamen."
+    },
+    {
+      "rule_id": "SPC-075",
+      "priority": 114,
+      "heading": "0910",
+      "conditions": {
+        "spice_type": "turmeric",
+        "processing_state": "fresh"
+      },
+      "output_code": "09103010",
+      "description": "Turmeric, fresh.",
+      "source_reference": "PDF page 12: 0910 30 10"
+    },
+    {
+      "rule_id": "SPC-076",
+      "priority": 113,
+      "heading": "0910",
+      "conditions": {
+        "spice_type": "turmeric",
+        "processing_state": "dried"
+      },
+      "output_code": "09103020",
+      "description": "Turmeric, dried.",
+      "source_reference": "PDF page 12: 0910 30 20"
+    },
+    {
+      "rule_id": "SPC-077",
+      "priority": 112,
+      "heading": "0910",
+      "conditions": {
+        "spice_type": "turmeric",
+        "form": "powder"
+      },
+      "output_code": "09103030",
+      "description": "Turmeric, powder.",
+      "source_reference": "PDF page 12: 0910 30 30"
+    },
+    {
+      "rule_id": "SPC-078",
+      "priority": 105,
+      "heading": "0910",
+      "conditions": {
+        "spice_type": "turmeric",
+        "fallback_within_091030": true
+      },
+      "output_code": "09103090",
+      "description": "Turmeric, other.",
+      "source_reference": "PDF page 12: 0910 30 90",
+      "notes": "REQUIRES SOURCE CLARIFICATION: 'Other' within turmeric — covers presentations not specifically listed as fresh, dried, or powder."
+    },
+    {
+      "rule_id": "SPC-079",
+      "priority": 111,
+      "heading": "0910",
+      "conditions": {
+        "spice_type": "mixture",
+        "sub_type": "cross_heading_mixture"
+      },
+      "output_code": "09109100",
+      "description": "Mixtures referred to in Note 1(b) to Chapter 09.",
+      "source_reference": "PDF page 12: 0910 91 00",
+      "notes": "This is the classification for mixtures of products from different headings within 0904–0910 per Chapter 09 Note 1(b). Implementation requires verifying that ingredients span multiple headings."
+    },
+    {
+      "rule_id": "SPC-080",
+      "priority": 104,
+      "heading": "0910",
+      "conditions": {
+        "spice_type": "other_spice",
+        "form": "seed",
+        "sub_type": "celery"
+      },
+      "output_code": "09109911",
+      "description": "Seed, celery.",
+      "source_reference": "PDF page 12: 0910 99 11"
+    },
+    {
+      "rule_id": "SPC-081",
+      "priority": 103,
+      "heading": "0910",
+      "conditions": {
+        "spice_type": "other_spice",
+        "form": "seed",
+        "sub_type": "fenugreek"
+      },
+      "output_code": "09109912",
+      "description": "Seed, fenugreek.",
+      "source_reference": "PDF page 12: 0910 99 12"
+    },
+    {
+      "rule_id": "SPC-082",
+      "priority": 102,
+      "heading": "0910",
+      "conditions": {
+        "spice_type": "other_spice",
+        "form": "seed",
+        "sub_type": "dill"
+      },
+      "output_code": "09109913",
+      "description": "Seed, dill.",
+      "source_reference": "PDF page 12: 0910 99 13"
+    },
+    {
+      "rule_id": "SPC-083",
+      "priority": 101,
+      "heading": "0910",
+      "conditions": {
+        "spice_type": "other_spice",
+        "form": "seed",
+        "sub_type": "ajwain"
+      },
+      "output_code": "09109914",
+      "description": "Seed, ajwain.",
+      "source_reference": "PDF page 12: 0910 99 14"
+    },
+    {
+      "rule_id": "SPC-084",
+      "priority": 100,
+      "heading": "0910",
+      "conditions": {
+        "spice_type": "other_spice",
+        "form": "seed",
+        "sub_type": "cassia_torea"
+      },
+      "output_code": "09109915",
+      "description": "Seed, Cassia torea.",
+      "source_reference": "PDF page 12: 0910 99 15"
+    },
+    {
+      "rule_id": "SPC-085",
+      "priority": 90,
+      "heading": "0910",
+      "conditions": {
+        "spice_type": "other_spice",
+        "form": "seed",
+        "fallback_within_091099_seed": true
+      },
+      "output_code": "09109919",
+      "description": "Seed, other.",
+      "source_reference": "PDF page 12: 0910 99 19",
+      "notes": "REQUIRES SOURCE CLARIFICATION: 'Other' within seeds of other spices — covers seed types not specifically listed."
+    },
+    {
+      "rule_id": "SPC-086",
+      "priority": 99,
+      "heading": "0910",
+      "conditions": {
+        "spice_type": "other_spice",
+        "form": "powder",
+        "sub_type": "cassia"
+      },
+      "output_code": "09109921",
+      "description": "Powder, cassia.",
+      "source_reference": "PDF page 12: 0910 99 21"
+    },
+    {
+      "rule_id": "SPC-087",
+      "priority": 98,
+      "heading": "0910",
+      "conditions": {
+        "spice_type": "other_spice",
+        "form": "powder",
+        "sub_type": "celery"
+      },
+      "output_code": "09109923",
+      "description": "Powder, celery.",
+      "source_reference": "PDF page 12: 0910 99 23"
+    },
+    {
+      "rule_id": "SPC-088",
+      "priority": 97,
+      "heading": "0910",
+      "conditions": {
+        "spice_type": "other_spice",
+        "form": "powder",
+        "sub_type": "fenugreek"
+      },
+      "output_code": "09109924",
+      "description": "Powder, fenugreek.",
+      "source_reference": "PDF page 12: 0910 99 24"
+    },
+    {
+      "rule_id": "SPC-089",
+      "priority": 96,
+      "heading": "0910",
+      "conditions": {
+        "spice_type": "other_spice",
+        "form": "powder",
+        "sub_type": "dill"
+      },
+      "output_code": "09109925",
+      "description": "Powder, dill.",
+      "source_reference": "PDF page 12: 0910 99 25"
+    },
+    {
+      "rule_id": "SPC-090",
+      "priority": 95,
+      "heading": "0910",
+      "conditions": {
+        "spice_type": "other_spice",
+        "form": "powder",
+        "sub_type": "poppy"
+      },
+      "output_code": "09109926",
+      "description": "Powder, poppy.",
+      "source_reference": "PDF page 12: 0910 99 26"
+    },
+    {
+      "rule_id": "SPC-091",
+      "priority": 94,
+      "heading": "0910",
+      "conditions": {
+        "spice_type": "other_spice",
+        "form": "powder",
+        "sub_type": "mustard"
+      },
+      "output_code": "09109927",
+      "description": "Powder, mustard.",
+      "source_reference": "PDF page 12: 0910 99 27"
+    },
+    {
+      "rule_id": "SPC-092",
+      "priority": 85,
+      "heading": "0910",
+      "conditions": {
+        "spice_type": "other_spice",
+        "form": "powder",
+        "fallback_within_091099_powder": true
+      },
+      "output_code": "09109929",
+      "description": "Powder, other.",
+      "source_reference": "PDF page 12: 0910 99 29",
+      "notes": "REQUIRES SOURCE CLARIFICATION: 'Other' within powders of other spices — covers powder types not specifically listed."
+    },
+    {
+      "rule_id": "SPC-093",
+      "priority": 84,
+      "heading": "0910",
+      "conditions": {
+        "spice_type": "other_spice",
+        "form": "husk",
+        "fallback_within_091099_husk": true
+      },
+      "output_code": "09109939",
+      "description": "Husk, other.",
+      "source_reference": "PDF page 12: 0910 99 39",
+      "notes": "REQUIRES SOURCE CLARIFICATION: 'Other' within husks — no specific husk types are listed before this residual line. The PDF provides only this single husk entry."
+    },
+    {
+      "rule_id": "SPC-094",
+      "priority": 50,
+      "heading": "0910",
+      "conditions": {
+        "fallback_within_091099": true
+      },
+      "output_code": "09109990",
+      "description": "Other.",
+      "source_reference": "PDF page 12: 0910 99 90",
+      "notes": "REQUIRES SOURCE CLARIFICATION: Ultimate residual 'Other' within 0910 99 — covers all other spices not classified elsewhere in Chapter 09. This is NOT a universal catch-all for all spice products; it is scoped to products that (a) belong in heading 0910 and (b) do not match any more specific 0910 99 tariff line."
+    }
+  ]
+}

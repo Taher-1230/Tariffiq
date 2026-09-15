@@ -1,0 +1,216 @@
+{
+  "source_section": "0901 — Coffee",
+  "source_note": "Extracted from authoritative Coffee tariff schedule. Descriptions are preserved exactly from the source text; no additional classification rules were inferred.",
+  "codes": [
+    {
+      "hs_code": "0901",
+      "parent_code": null,
+      "level": "heading",
+      "category": "Coffee",
+      "description": "Coffee, whether or not roasted or decaffeinated; coffee husks and skins; coffee substitutes containing coffee."
+    },
+    {
+      "hs_code": "090111",
+      "parent_code": "0901",
+      "level": "subheading",
+      "category": "Coffee, not roasted, not decaffeinated",
+      "description": "Coffee, not roasted, not decaffeinated."
+    },
+    {
+      "hs_code": "09011111",
+      "parent_code": "090111",
+      "level": "national_line",
+      "category": "Arabica plantation",
+      "description": "Arabica plantation, A Grade."
+    },
+    {
+      "hs_code": "09011112",
+      "parent_code": "090111",
+      "level": "national_line",
+      "category": "Arabica plantation",
+      "description": "Arabica plantation, B Grade."
+    },
+    {
+      "hs_code": "09011113",
+      "parent_code": "090111",
+      "level": "national_line",
+      "category": "Arabica plantation",
+      "description": "Arabica plantation, C Grade."
+    },
+    {
+      "hs_code": "09011119",
+      "parent_code": "090111",
+      "level": "national_line",
+      "category": "Arabica plantation",
+      "description": "Arabica plantation, other."
+    },
+    {
+      "hs_code": "09011121",
+      "parent_code": "090111",
+      "level": "national_line",
+      "category": "Arabica Cherry",
+      "description": "Arabica Cherry, AB Grade."
+    },
+    {
+      "hs_code": "09011122",
+      "parent_code": "090111",
+      "level": "national_line",
+      "category": "Arabica Cherry",
+      "description": "Arabica Cherry, PB Grade."
+    },
+    {
+      "hs_code": "09011123",
+      "parent_code": "090111",
+      "level": "national_line",
+      "category": "Arabica Cherry",
+      "description": "Arabica Cherry, C Grade."
+    },
+    {
+      "hs_code": "09011124",
+      "parent_code": "090111",
+      "level": "national_line",
+      "category": "Arabica Cherry",
+      "description": "Arabica Cherry, B/B/B Grade."
+    },
+    {
+      "hs_code": "09011129",
+      "parent_code": "090111",
+      "level": "national_line",
+      "category": "Arabica Cherry",
+      "description": "Arabica Cherry, other."
+    },
+    {
+      "hs_code": "09011141",
+      "parent_code": "090111",
+      "level": "national_line",
+      "category": "Rob cherry",
+      "description": "Rob cherry, AB Grade."
+    },
+    {
+      "hs_code": "09011142",
+      "parent_code": "090111",
+      "level": "national_line",
+      "category": "Rob cherry",
+      "description": "Rob cherry, PB Grade."
+    },
+    {
+      "hs_code": "09011143",
+      "parent_code": "090111",
+      "level": "national_line",
+      "category": "Rob cherry",
+      "description": "Rob cherry, C Grade."
+    },
+    {
+      "hs_code": "09011144",
+      "parent_code": "090111",
+      "level": "national_line",
+      "category": "Rob cherry",
+      "description": "Rob cherry, B/B/B Grade."
+    },
+    {
+      "hs_code": "09011145",
+      "parent_code": "090111",
+      "level": "national_line",
+      "category": "Rob cherry",
+      "description": "Rob cherry, bulk."
+    },
+    {
+      "hs_code": "09011149",
+      "parent_code": "090111",
+      "level": "national_line",
+      "category": "Rob cherry",
+      "description": "Rob cherry, other."
+    },
+    {
+      "hs_code": "09011190",
+      "parent_code": "090111",
+      "level": "national_line",
+      "category": "Other unroasted non-decaffeinated coffee",
+      "description": "Other."
+    },
+    {
+      "hs_code": "090112",
+      "parent_code": "0901",
+      "level": "subheading",
+      "category": "Coffee, not roasted, decaffeinated",
+      "description": "Coffee, not roasted, decaffeinated."
+    },
+    {
+      "hs_code": "09011200",
+      "parent_code": "090112",
+      "level": "national_line",
+      "category": "Coffee, not roasted, decaffeinated",
+      "description": "Coffee, not roasted, decaffeinated."
+    },
+    {
+      "hs_code": "090121",
+      "parent_code": "0901",
+      "level": "subheading",
+      "category": "Coffee, roasted, non-decaffeinated",
+      "description": "Coffee, roasted, not decaffeinated."
+    },
+    {
+      "hs_code": "09012110",
+      "parent_code": "090121",
+      "level": "national_line",
+      "category": "Coffee, roasted, non-decaffeinated",
+      "description": "Coffee, roasted, non-decaffeinated, in bulk packing."
+    },
+    {
+      "hs_code": "09012190",
+      "parent_code": "090121",
+      "level": "national_line",
+      "category": "Coffee, roasted, non-decaffeinated",
+      "description": "Coffee, roasted, non-decaffeinated, other."
+    },
+    {
+      "hs_code": "090122",
+      "parent_code": "0901",
+      "level": "subheading",
+      "category": "Coffee, roasted, decaffeinated",
+      "description": "Coffee, roasted, decaffeinated."
+    },
+    {
+      "hs_code": "09012210",
+      "parent_code": "090122",
+      "level": "national_line",
+      "category": "Coffee, roasted, decaffeinated",
+      "description": "Coffee, roasted, decaffeinated, in bulk packing."
+    },
+    {
+      "hs_code": "09012290",
+      "parent_code": "090122",
+      "level": "national_line",
+      "category": "Coffee, roasted, decaffeinated",
+      "description": "Coffee, roasted, decaffeinated, other."
+    },
+    {
+      "hs_code": "090190",
+      "parent_code": "0901",
+      "level": "subheading",
+      "category": "Other coffee products",
+      "description": "Other."
+    },
+    {
+      "hs_code": "09019010",
+      "parent_code": "090190",
+      "level": "national_line",
+      "category": "Coffee husks and skins",
+      "description": "Coffee husks and skins."
+    },
+    {
+      "hs_code": "09019020",
+      "parent_code": "090190",
+      "level": "national_line",
+      "category": "Coffee substitutes containing coffee",
+      "description": "Coffee substitutes containing coffee."
+    },
+    {
+      "hs_code": "09019090",
+      "parent_code": "090190",
+      "level": "national_line",
+      "category": "Other coffee products",
+      "description": "Other."
+    }
+  ]
+}

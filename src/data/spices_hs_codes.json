@@ -1,0 +1,960 @@
+{
+  "source_file": "HS PROJECT OVERVIEW.pdf",
+  "source_section": "0904–0910 — Spices",
+  "source_note": "Extracted from the uploaded PDF (Chapter 09 complete code structure, pages 8–12). Descriptions are preserved from the source text; no additional classification rules were inferred.",
+  "chapter_notes": [
+    {
+      "note_id": "CH09-NOTE-1a",
+      "text": "Mixtures of two or more products of the same heading remain in that heading.",
+      "source_reference": "PDF page 4–5, Chapter 09 notes"
+    },
+    {
+      "note_id": "CH09-NOTE-1b",
+      "text": "Mixtures of two or more products of different headings within 0904 to 0910 go to heading 0910.",
+      "source_reference": "PDF page 4–5, Chapter 09 notes"
+    },
+    {
+      "note_id": "CH09-NOTE-2",
+      "text": "The addition of other substances does not automatically remove classification from Chapter 09 if the resulting goods retain the essential character of the spices.",
+      "source_reference": "PDF page 4–5, Chapter 09 notes"
+    },
+    {
+      "note_id": "CH09-NOTE-3",
+      "text": "If the resulting product no longer retains the essential character of goods of Chapter 09, it is not classified in Chapter 09; mixed condiments or mixed seasonings go to heading 2103.",
+      "source_reference": "PDF page 4–5, Chapter 09 notes"
+    },
+    {
+      "note_id": "CH09-NOTE-4",
+      "text": "Chapter 09 does not cover cubeb pepper (Piper cubeba) or other products of heading 1211.",
+      "source_reference": "PDF page 5, Chapter 09 notes"
+    },
+    {
+      "note_id": "CH09-SUPP-1",
+      "text": "\"Spice\" includes vegetable products rich in essential oils and aromatic principles used mainly as condiments, and they may be whole, crushed, or powdered.",
+      "source_reference": "PDF page 5, supplementary notes"
+    },
+    {
+      "note_id": "CH09-SUPP-2",
+      "text": "The addition of other substances to spices does not remove them from spice classification if the resulting mixtures retain the essential character of spices; products commonly known as \"masalas\" may still remain in spices depending on that essential-character test.",
+      "source_reference": "PDF page 5, supplementary notes"
+    }
+  ],
+  "codes": [
+    {
+      "hs_code": "0904",
+      "parent_code": null,
+      "level": "heading",
+      "category": "Pepper; capsicum/pimenta fruits",
+      "description": "Pepper of the genus Piper; dried or crushed or ground fruits of the genus Capsicum or of the genus Pimenta."
+    },
+    {
+      "hs_code": "090411",
+      "parent_code": "0904",
+      "level": "subheading",
+      "category": "Pepper, neither crushed nor ground",
+      "description": "Pepper, neither crushed nor ground."
+    },
+    {
+      "hs_code": "09041110",
+      "parent_code": "090411",
+      "level": "national_line",
+      "category": "Long pepper",
+      "description": "Pepper, long, neither crushed nor ground."
+    },
+    {
+      "hs_code": "09041120",
+      "parent_code": "090411",
+      "level": "national_line",
+      "category": "Light black pepper",
+      "description": "Light black pepper, neither crushed nor ground."
+    },
+    {
+      "hs_code": "09041130",
+      "parent_code": "090411",
+      "level": "national_line",
+      "category": "Black pepper, garbled",
+      "description": "Black pepper, garbled, neither crushed nor ground."
+    },
+    {
+      "hs_code": "09041140",
+      "parent_code": "090411",
+      "level": "national_line",
+      "category": "Black pepper, ungarbled",
+      "description": "Black pepper ungarbled, neither crushed nor ground."
+    },
+    {
+      "hs_code": "09041150",
+      "parent_code": "090411",
+      "level": "national_line",
+      "category": "Green pepper, dehydrated",
+      "description": "Green pepper, dehydrated, neither crushed nor ground."
+    },
+    {
+      "hs_code": "09041160",
+      "parent_code": "090411",
+      "level": "national_line",
+      "category": "Pepper pinheads",
+      "description": "Pepper pinheads, neither crushed nor ground."
+    },
+    {
+      "hs_code": "09041170",
+      "parent_code": "090411",
+      "level": "national_line",
+      "category": "Green pepper, frozen or dried",
+      "description": "Green pepper, frozen or dried, neither crushed nor ground."
+    },
+    {
+      "hs_code": "09041180",
+      "parent_code": "090411",
+      "level": "national_line",
+      "category": "Pepper other than green, frozen",
+      "description": "Pepper other than green, frozen, neither crushed nor ground."
+    },
+    {
+      "hs_code": "09041190",
+      "parent_code": "090411",
+      "level": "national_line",
+      "category": "Pepper, other",
+      "description": "Pepper, other, neither crushed nor ground."
+    },
+    {
+      "hs_code": "090412",
+      "parent_code": "0904",
+      "level": "subheading",
+      "category": "Pepper, crushed or ground",
+      "description": "Pepper, crushed or ground."
+    },
+    {
+      "hs_code": "09041200",
+      "parent_code": "090412",
+      "level": "national_line",
+      "category": "Pepper, crushed or ground",
+      "description": "Pepper, crushed or ground."
+    },
+    {
+      "hs_code": "090421",
+      "parent_code": "0904",
+      "level": "subheading",
+      "category": "Capsicum/Pimenta, dried, neither crushed nor ground",
+      "description": "Fruits of the genus Capsicum or of the genus Pimenta, dried, neither crushed nor ground."
+    },
+    {
+      "hs_code": "09042110",
+      "parent_code": "090421",
+      "level": "national_line",
+      "category": "Capsicum, dried",
+      "description": "Dried, neither crushed nor ground, of genus Capsicum."
+    },
+    {
+      "hs_code": "09042120",
+      "parent_code": "090421",
+      "level": "national_line",
+      "category": "Pimenta, dried",
+      "description": "Dried, neither crushed nor ground, of genus Pimenta."
+    },
+    {
+      "hs_code": "090422",
+      "parent_code": "0904",
+      "level": "subheading",
+      "category": "Capsicum/Pimenta, crushed or ground",
+      "description": "Fruits of the genus Capsicum or of the genus Pimenta, crushed or ground."
+    },
+    {
+      "hs_code": "09042211",
+      "parent_code": "090422",
+      "level": "national_line",
+      "category": "Capsicum, chilly powder",
+      "description": "Crushed or ground, of genus Capsicum, chilly powder."
+    },
+    {
+      "hs_code": "09042212",
+      "parent_code": "090422",
+      "level": "national_line",
+      "category": "Capsicum, chilly seeds",
+      "description": "Crushed or ground, of genus Capsicum, chilly seeds."
+    },
+    {
+      "hs_code": "09042219",
+      "parent_code": "090422",
+      "level": "national_line",
+      "category": "Capsicum, other",
+      "description": "Crushed or ground, of genus Capsicum, other."
+    },
+    {
+      "hs_code": "09042221",
+      "parent_code": "090422",
+      "level": "national_line",
+      "category": "Pimenta, powder",
+      "description": "Crushed or ground, of genus Pimenta, powder."
+    },
+    {
+      "hs_code": "09042229",
+      "parent_code": "090422",
+      "level": "national_line",
+      "category": "Pimenta, other",
+      "description": "Crushed or ground, of genus Pimenta, other."
+    },
+
+    {
+      "hs_code": "0905",
+      "parent_code": null,
+      "level": "heading",
+      "category": "Vanilla",
+      "description": "Vanilla."
+    },
+    {
+      "hs_code": "090510",
+      "parent_code": "0905",
+      "level": "subheading",
+      "category": "Vanilla, neither crushed nor ground",
+      "description": "Vanilla, neither crushed nor ground."
+    },
+    {
+      "hs_code": "09051000",
+      "parent_code": "090510",
+      "level": "national_line",
+      "category": "Vanilla, neither crushed nor ground",
+      "description": "Vanilla, neither crushed nor ground."
+    },
+    {
+      "hs_code": "090520",
+      "parent_code": "0905",
+      "level": "subheading",
+      "category": "Vanilla, crushed or ground",
+      "description": "Vanilla, crushed or ground."
+    },
+    {
+      "hs_code": "09052000",
+      "parent_code": "090520",
+      "level": "national_line",
+      "category": "Vanilla, crushed or ground",
+      "description": "Vanilla, crushed or ground."
+    },
+
+    {
+      "hs_code": "0906",
+      "parent_code": null,
+      "level": "heading",
+      "category": "Cinnamon and cinnamon-tree flowers",
+      "description": "Cinnamon and cinnamon-tree flowers."
+    },
+    {
+      "hs_code": "090611",
+      "parent_code": "0906",
+      "level": "subheading",
+      "category": "Cinnamon (Cinnamomum zeylanicum Blume), neither crushed nor ground",
+      "description": "Cinnamon (Cinnamomum zeylanicum Blume), neither crushed nor ground."
+    },
+    {
+      "hs_code": "09061110",
+      "parent_code": "090611",
+      "level": "national_line",
+      "category": "Cinnamon bark",
+      "description": "Cinnamon bark, neither crushed nor ground, Cinnamomum zeylanicum Blume."
+    },
+    {
+      "hs_code": "09061120",
+      "parent_code": "090611",
+      "level": "national_line",
+      "category": "Cinnamon tree flowers",
+      "description": "Cinnamon tree flowers, neither crushed nor ground, Cinnamomum zeylanicum Blume."
+    },
+    {
+      "hs_code": "09061190",
+      "parent_code": "090611",
+      "level": "national_line",
+      "category": "Other under 0906 11",
+      "description": "Other under 0906 11."
+    },
+    {
+      "hs_code": "090619",
+      "parent_code": "0906",
+      "level": "subheading",
+      "category": "Other cinnamon, neither crushed nor ground",
+      "description": "Other, neither crushed nor ground."
+    },
+    {
+      "hs_code": "09061910",
+      "parent_code": "090619",
+      "level": "national_line",
+      "category": "Cassia",
+      "description": "Cassia, neither crushed nor ground."
+    },
+    {
+      "hs_code": "09061990",
+      "parent_code": "090619",
+      "level": "national_line",
+      "category": "Other cinnamon, neither crushed nor ground",
+      "description": "Other, neither crushed nor ground."
+    },
+    {
+      "hs_code": "090620",
+      "parent_code": "0906",
+      "level": "subheading",
+      "category": "Cinnamon/cinnamon-tree flowers, crushed or ground",
+      "description": "Cinnamon/cinnamon-tree flowers, crushed or ground."
+    },
+    {
+      "hs_code": "09062000",
+      "parent_code": "090620",
+      "level": "national_line",
+      "category": "Cinnamon/cinnamon-tree flowers, crushed or ground",
+      "description": "Cinnamon/cinnamon-tree flowers, crushed or ground."
+    },
+
+    {
+      "hs_code": "0907",
+      "parent_code": null,
+      "level": "heading",
+      "category": "Cloves",
+      "description": "Cloves (whole fruit, cloves, stems and flowers)."
+    },
+    {
+      "hs_code": "090710",
+      "parent_code": "0907",
+      "level": "subheading",
+      "category": "Cloves, neither crushed nor ground",
+      "description": "Cloves, neither crushed nor ground."
+    },
+    {
+      "hs_code": "09071010",
+      "parent_code": "090710",
+      "level": "national_line",
+      "category": "Cloves, extracted",
+      "description": "Cloves, whole fruit/cloves/stems, neither crushed nor ground, extracted."
+    },
+    {
+      "hs_code": "09071020",
+      "parent_code": "090710",
+      "level": "national_line",
+      "category": "Cloves, not extracted",
+      "description": "Cloves, neither crushed nor ground, not extracted (other than stem)."
+    },
+    {
+      "hs_code": "09071030",
+      "parent_code": "090710",
+      "level": "national_line",
+      "category": "Clove stem",
+      "description": "Clove stem, neither crushed nor ground."
+    },
+    {
+      "hs_code": "09071090",
+      "parent_code": "090710",
+      "level": "national_line",
+      "category": "Other cloves, neither crushed nor ground",
+      "description": "Other, neither crushed nor ground."
+    },
+    {
+      "hs_code": "090720",
+      "parent_code": "0907",
+      "level": "subheading",
+      "category": "Cloves, crushed or ground",
+      "description": "Cloves, crushed or ground."
+    },
+    {
+      "hs_code": "09072000",
+      "parent_code": "090720",
+      "level": "national_line",
+      "category": "Cloves, crushed or ground",
+      "description": "Cloves, crushed or ground."
+    },
+
+    {
+      "hs_code": "0908",
+      "parent_code": null,
+      "level": "heading",
+      "category": "Nutmeg, mace and cardamoms",
+      "description": "Nutmeg, mace and cardamoms."
+    },
+    {
+      "hs_code": "090811",
+      "parent_code": "0908",
+      "level": "subheading",
+      "category": "Nutmeg, neither crushed nor ground",
+      "description": "Nutmeg, neither crushed nor ground."
+    },
+    {
+      "hs_code": "09081110",
+      "parent_code": "090811",
+      "level": "national_line",
+      "category": "Nutmeg, in shell",
+      "description": "Nutmeg, neither crushed nor ground, in shell."
+    },
+    {
+      "hs_code": "09081120",
+      "parent_code": "090811",
+      "level": "national_line",
+      "category": "Nutmeg, shelled",
+      "description": "Nutmeg, neither crushed nor ground, shelled."
+    },
+    {
+      "hs_code": "090812",
+      "parent_code": "0908",
+      "level": "subheading",
+      "category": "Nutmeg, crushed or ground",
+      "description": "Nutmeg, crushed or ground."
+    },
+    {
+      "hs_code": "09081200",
+      "parent_code": "090812",
+      "level": "national_line",
+      "category": "Nutmeg, crushed or ground",
+      "description": "Nutmeg, crushed or ground."
+    },
+    {
+      "hs_code": "090821",
+      "parent_code": "0908",
+      "level": "subheading",
+      "category": "Mace, neither crushed nor ground",
+      "description": "Mace, neither crushed nor ground."
+    },
+    {
+      "hs_code": "09082100",
+      "parent_code": "090821",
+      "level": "national_line",
+      "category": "Mace, neither crushed nor ground",
+      "description": "Mace, neither crushed nor ground."
+    },
+    {
+      "hs_code": "090822",
+      "parent_code": "0908",
+      "level": "subheading",
+      "category": "Mace, crushed or ground",
+      "description": "Mace, crushed or ground."
+    },
+    {
+      "hs_code": "09082200",
+      "parent_code": "090822",
+      "level": "national_line",
+      "category": "Mace, crushed or ground",
+      "description": "Mace, crushed or ground."
+    },
+    {
+      "hs_code": "090831",
+      "parent_code": "0908",
+      "level": "subheading",
+      "category": "Cardamoms, neither crushed nor ground",
+      "description": "Cardamoms, neither crushed nor ground."
+    },
+    {
+      "hs_code": "09083110",
+      "parent_code": "090831",
+      "level": "national_line",
+      "category": "Cardamoms, large (amomum)",
+      "description": "Cardamoms, neither crushed nor ground, large (amomum)."
+    },
+    {
+      "hs_code": "09083120",
+      "parent_code": "090831",
+      "level": "national_line",
+      "category": "Cardamoms, small, alleppey green",
+      "description": "Cardamoms, neither crushed nor ground, small (elettaria), alleppey green."
+    },
+    {
+      "hs_code": "09083130",
+      "parent_code": "090831",
+      "level": "national_line",
+      "category": "Cardamoms, small, coorg green",
+      "description": "Cardamoms, neither crushed nor ground, small, coorg green."
+    },
+    {
+      "hs_code": "09083140",
+      "parent_code": "090831",
+      "level": "national_line",
+      "category": "Cardamoms, small, bleached/half bleached/bleachable",
+      "description": "Cardamoms, neither crushed nor ground, small, bleached/half bleached/bleachable."
+    },
+    {
+      "hs_code": "09083150",
+      "parent_code": "090831",
+      "level": "national_line",
+      "category": "Cardamoms, small, mixed",
+      "description": "Cardamoms, neither crushed nor ground, small, mixed."
+    },
+    {
+      "hs_code": "09083190",
+      "parent_code": "090831",
+      "level": "national_line",
+      "category": "Cardamoms, other",
+      "description": "Cardamoms, neither crushed nor ground, other."
+    },
+    {
+      "hs_code": "090832",
+      "parent_code": "0908",
+      "level": "subheading",
+      "category": "Cardamoms, crushed or ground",
+      "description": "Cardamoms, crushed or ground."
+    },
+    {
+      "hs_code": "09083210",
+      "parent_code": "090832",
+      "level": "national_line",
+      "category": "Cardamoms, powder",
+      "description": "Cardamoms, crushed or ground, powder."
+    },
+    {
+      "hs_code": "09083220",
+      "parent_code": "090832",
+      "level": "national_line",
+      "category": "Small cardamom seeds",
+      "description": "Cardamoms, crushed or ground, small cardamom seeds."
+    },
+    {
+      "hs_code": "09083230",
+      "parent_code": "090832",
+      "level": "national_line",
+      "category": "Cardamom husk",
+      "description": "Cardamoms, crushed or ground, cardamom husk."
+    },
+    {
+      "hs_code": "09083290",
+      "parent_code": "090832",
+      "level": "national_line",
+      "category": "Cardamoms, crushed or ground, other",
+      "description": "Cardamoms, crushed or ground, other."
+    },
+
+    {
+      "hs_code": "0909",
+      "parent_code": null,
+      "level": "heading",
+      "category": "Seeds of anise, badian, fennel, coriander, cumin or caraway; juniper berries",
+      "description": "Seeds of anise, badian, fennel, coriander, cumin or caraway; juniper berries."
+    },
+    {
+      "hs_code": "090921",
+      "parent_code": "0909",
+      "level": "subheading",
+      "category": "Seeds of coriander, neither crushed nor ground",
+      "description": "Seeds of coriander, neither crushed nor ground."
+    },
+    {
+      "hs_code": "09092110",
+      "parent_code": "090921",
+      "level": "national_line",
+      "category": "Seeds of coriander, seed quality",
+      "description": "Seeds of coriander, neither crushed nor ground, of seed quality."
+    },
+    {
+      "hs_code": "09092190",
+      "parent_code": "090921",
+      "level": "national_line",
+      "category": "Seeds of coriander, other",
+      "description": "Seeds of coriander, neither crushed nor ground, other."
+    },
+    {
+      "hs_code": "090922",
+      "parent_code": "0909",
+      "level": "subheading",
+      "category": "Seeds of coriander, crushed or ground",
+      "description": "Seeds of coriander, crushed or ground."
+    },
+    {
+      "hs_code": "09092200",
+      "parent_code": "090922",
+      "level": "national_line",
+      "category": "Seeds of coriander, crushed or ground",
+      "description": "Seeds of coriander, crushed or ground."
+    },
+    {
+      "hs_code": "090931",
+      "parent_code": "0909",
+      "level": "subheading",
+      "category": "Seeds of cumin, neither crushed nor ground",
+      "description": "Seeds of cumin, neither crushed nor ground."
+    },
+    {
+      "hs_code": "09093111",
+      "parent_code": "090931",
+      "level": "national_line",
+      "category": "Cumin black, seed quality",
+      "description": "Seeds of cumin, neither crushed nor ground, cumin black, of seed quality."
+    },
+    {
+      "hs_code": "09093119",
+      "parent_code": "090931",
+      "level": "national_line",
+      "category": "Cumin black, other",
+      "description": "Seeds of cumin, neither crushed nor ground, cumin black, other."
+    },
+    {
+      "hs_code": "09093121",
+      "parent_code": "090931",
+      "level": "national_line",
+      "category": "Cumin other than black, seed quality",
+      "description": "Seeds of cumin, neither crushed nor ground, cumin other than black, of seed quality."
+    },
+    {
+      "hs_code": "09093129",
+      "parent_code": "090931",
+      "level": "national_line",
+      "category": "Cumin other than black, other",
+      "description": "Seeds of cumin, neither crushed nor ground, cumin other than black, other."
+    },
+    {
+      "hs_code": "090932",
+      "parent_code": "0909",
+      "level": "subheading",
+      "category": "Seeds of cumin, crushed or ground",
+      "description": "Seeds of cumin, crushed or ground."
+    },
+    {
+      "hs_code": "09093200",
+      "parent_code": "090932",
+      "level": "national_line",
+      "category": "Seeds of cumin, crushed or ground",
+      "description": "Seeds of cumin, crushed or ground."
+    },
+    {
+      "hs_code": "090961",
+      "parent_code": "0909",
+      "level": "subheading",
+      "category": "Anise, badian, caraway, fennel, juniper — neither crushed nor ground",
+      "description": "Seeds of anise, badian, caraway or fennel; juniper berries, neither crushed nor ground."
+    },
+    {
+      "hs_code": "09096111",
+      "parent_code": "090961",
+      "level": "national_line",
+      "category": "Seeds of anise, seed quality",
+      "description": "Seeds of anise, neither crushed nor ground, of seed quality."
+    },
+    {
+      "hs_code": "09096119",
+      "parent_code": "090961",
+      "level": "national_line",
+      "category": "Seeds of anise, other",
+      "description": "Seeds of anise, neither crushed nor ground, other."
+    },
+    {
+      "hs_code": "09096121",
+      "parent_code": "090961",
+      "level": "national_line",
+      "category": "Seeds of badian, seed quality",
+      "description": "Seeds of badian, neither crushed nor ground, of seed quality."
+    },
+    {
+      "hs_code": "09096129",
+      "parent_code": "090961",
+      "level": "national_line",
+      "category": "Seeds of badian, other",
+      "description": "Seeds of badian, neither crushed nor ground, other."
+    },
+    {
+      "hs_code": "09096131",
+      "parent_code": "090961",
+      "level": "national_line",
+      "category": "Seeds of caraway or fennel, seed quality",
+      "description": "Seeds of caraway or fennel, neither crushed nor ground, of seed quality."
+    },
+    {
+      "hs_code": "09096139",
+      "parent_code": "090961",
+      "level": "national_line",
+      "category": "Seeds of caraway or fennel, other",
+      "description": "Seeds of caraway or fennel, neither crushed nor ground, other."
+    },
+    {
+      "hs_code": "09096141",
+      "parent_code": "090961",
+      "level": "national_line",
+      "category": "Juniper berries, seed quality",
+      "description": "Juniper berries, neither crushed nor ground, of seed quality."
+    },
+    {
+      "hs_code": "09096149",
+      "parent_code": "090961",
+      "level": "national_line",
+      "category": "Juniper berries, other",
+      "description": "Juniper berries, neither crushed nor ground, other."
+    },
+    {
+      "hs_code": "090962",
+      "parent_code": "0909",
+      "level": "subheading",
+      "category": "Anise, badian, caraway, fennel, juniper — crushed or ground",
+      "description": "Seeds of anise, badian, caraway or fennel; juniper berries, crushed or ground."
+    },
+    {
+      "hs_code": "09096210",
+      "parent_code": "090962",
+      "level": "national_line",
+      "category": "Anise, crushed or ground",
+      "description": "Anise, crushed or ground."
+    },
+    {
+      "hs_code": "09096220",
+      "parent_code": "090962",
+      "level": "national_line",
+      "category": "Badian, crushed or ground",
+      "description": "Badian, crushed or ground."
+    },
+    {
+      "hs_code": "09096230",
+      "parent_code": "090962",
+      "level": "national_line",
+      "category": "Caraway or fennel, crushed or ground",
+      "description": "Caraway or fennel, crushed or ground."
+    },
+    {
+      "hs_code": "09096240",
+      "parent_code": "090962",
+      "level": "national_line",
+      "category": "Juniper berries, crushed or ground",
+      "description": "Juniper berries, crushed or ground."
+    },
+
+    {
+      "hs_code": "0910",
+      "parent_code": null,
+      "level": "heading",
+      "category": "Ginger, saffron, turmeric, thyme, bay leaves, curry and other spices",
+      "description": "Ginger, saffron, turmeric (curcuma), thyme, bay leaves, curry and other spices."
+    },
+    {
+      "hs_code": "091011",
+      "parent_code": "0910",
+      "level": "subheading",
+      "category": "Ginger, neither crushed nor ground",
+      "description": "Ginger, neither crushed nor ground."
+    },
+    {
+      "hs_code": "09101110",
+      "parent_code": "091011",
+      "level": "national_line",
+      "category": "Fresh ginger",
+      "description": "Fresh ginger, neither crushed nor ground."
+    },
+    {
+      "hs_code": "09101120",
+      "parent_code": "091011",
+      "level": "national_line",
+      "category": "Dried ginger, unbleached",
+      "description": "Dried ginger, unbleached, neither crushed nor ground."
+    },
+    {
+      "hs_code": "09101130",
+      "parent_code": "091011",
+      "level": "national_line",
+      "category": "Dried ginger, bleached",
+      "description": "Dried ginger, bleached, neither crushed nor ground."
+    },
+    {
+      "hs_code": "09101190",
+      "parent_code": "091011",
+      "level": "national_line",
+      "category": "Ginger, other",
+      "description": "Ginger, other, neither crushed nor ground."
+    },
+    {
+      "hs_code": "091012",
+      "parent_code": "0910",
+      "level": "subheading",
+      "category": "Ginger, crushed or ground",
+      "description": "Ginger, crushed or ground."
+    },
+    {
+      "hs_code": "09101210",
+      "parent_code": "091012",
+      "level": "national_line",
+      "category": "Ginger powder",
+      "description": "Ginger, crushed or ground, powder."
+    },
+    {
+      "hs_code": "09101290",
+      "parent_code": "091012",
+      "level": "national_line",
+      "category": "Ginger, crushed or ground, other",
+      "description": "Ginger, crushed or ground, other."
+    },
+    {
+      "hs_code": "091020",
+      "parent_code": "0910",
+      "level": "subheading",
+      "category": "Saffron",
+      "description": "Saffron."
+    },
+    {
+      "hs_code": "09102010",
+      "parent_code": "091020",
+      "level": "national_line",
+      "category": "Saffron stigma",
+      "description": "Saffron stigma."
+    },
+    {
+      "hs_code": "09102020",
+      "parent_code": "091020",
+      "level": "national_line",
+      "category": "Saffron stamen",
+      "description": "Saffron stamen."
+    },
+    {
+      "hs_code": "09102090",
+      "parent_code": "091020",
+      "level": "national_line",
+      "category": "Saffron, other",
+      "description": "Saffron, other."
+    },
+    {
+      "hs_code": "091030",
+      "parent_code": "0910",
+      "level": "subheading",
+      "category": "Turmeric (curcuma)",
+      "description": "Turmeric (curcuma)."
+    },
+    {
+      "hs_code": "09103010",
+      "parent_code": "091030",
+      "level": "national_line",
+      "category": "Turmeric, fresh",
+      "description": "Turmeric, fresh."
+    },
+    {
+      "hs_code": "09103020",
+      "parent_code": "091030",
+      "level": "national_line",
+      "category": "Turmeric, dried",
+      "description": "Turmeric, dried."
+    },
+    {
+      "hs_code": "09103030",
+      "parent_code": "091030",
+      "level": "national_line",
+      "category": "Turmeric, powder",
+      "description": "Turmeric, powder."
+    },
+    {
+      "hs_code": "09103090",
+      "parent_code": "091030",
+      "level": "national_line",
+      "category": "Turmeric, other",
+      "description": "Turmeric, other."
+    },
+    {
+      "hs_code": "091091",
+      "parent_code": "0910",
+      "level": "subheading",
+      "category": "Mixtures referred to in Note 1(b)",
+      "description": "Mixtures referred to in Note 1(b) to Chapter 09."
+    },
+    {
+      "hs_code": "09109100",
+      "parent_code": "091091",
+      "level": "national_line",
+      "category": "Mixtures referred to in Note 1(b)",
+      "description": "Mixtures referred to in Note 1(b) to Chapter 09."
+    },
+    {
+      "hs_code": "091099",
+      "parent_code": "0910",
+      "level": "subheading",
+      "category": "Other spices",
+      "description": "Other."
+    },
+    {
+      "hs_code": "09109911",
+      "parent_code": "091099",
+      "level": "national_line",
+      "category": "Seed, celery",
+      "description": "Seed, celery."
+    },
+    {
+      "hs_code": "09109912",
+      "parent_code": "091099",
+      "level": "national_line",
+      "category": "Seed, fenugreek",
+      "description": "Seed, fenugreek."
+    },
+    {
+      "hs_code": "09109913",
+      "parent_code": "091099",
+      "level": "national_line",
+      "category": "Seed, dill",
+      "description": "Seed, dill."
+    },
+    {
+      "hs_code": "09109914",
+      "parent_code": "091099",
+      "level": "national_line",
+      "category": "Seed, ajwain",
+      "description": "Seed, ajwain."
+    },
+    {
+      "hs_code": "09109915",
+      "parent_code": "091099",
+      "level": "national_line",
+      "category": "Seed, Cassia torea",
+      "description": "Seed, Cassia torea."
+    },
+    {
+      "hs_code": "09109919",
+      "parent_code": "091099",
+      "level": "national_line",
+      "category": "Seed, other",
+      "description": "Seed, other."
+    },
+    {
+      "hs_code": "09109921",
+      "parent_code": "091099",
+      "level": "national_line",
+      "category": "Powder, cassia",
+      "description": "Powder, cassia."
+    },
+    {
+      "hs_code": "09109923",
+      "parent_code": "091099",
+      "level": "national_line",
+      "category": "Powder, celery",
+      "description": "Powder, celery."
+    },
+    {
+      "hs_code": "09109924",
+      "parent_code": "091099",
+      "level": "national_line",
+      "category": "Powder, fenugreek",
+      "description": "Powder, fenugreek."
+    },
+    {
+      "hs_code": "09109925",
+      "parent_code": "091099",
+      "level": "national_line",
+      "category": "Powder, dill",
+      "description": "Powder, dill."
+    },
+    {
+      "hs_code": "09109926",
+      "parent_code": "091099",
+      "level": "national_line",
+      "category": "Powder, poppy",
+      "description": "Powder, poppy."
+    },
+    {
+      "hs_code": "09109927",
+      "parent_code": "091099",
+      "level": "national_line",
+      "category": "Powder, mustard",
+      "description": "Powder, mustard."
+    },
+    {
+      "hs_code": "09109929",
+      "parent_code": "091099",
+      "level": "national_line",
+      "category": "Powder, other",
+      "description": "Powder, other."
+    },
+    {
+      "hs_code": "09109939",
+      "parent_code": "091099",
+      "level": "national_line",
+      "category": "Husk, other",
+      "description": "Husk, other."
+    },
+    {
+      "hs_code": "09109990",
+      "parent_code": "091099",
+      "level": "national_line",
+      "category": "Other spices",
+      "description": "Other."
+    }
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "source_file": "HS PROJECT OVERVIEW(1).pdf",
+  "source_section": "0902 — Tea",
+  "rule_design_note": "Rules are a machine-readable interpretation of the conditions explicitly stated in the source descriptions. Fallback rules represent 'Other' tariff lines and should be evaluated only after more specific rules fail.",
+  "required_attributes": [
+    "tea_type",
+    "presentation",
+    "form",
+    "net_weight_g"
+  ],
+  "rules": [
+    {
+      "rule_id": "TEA-001",
+      "priority": 100,
+      "conditions": {
+        "tea_type": "green",
+        "presentation": "immediate_packing",
+        "max_weight_g": 25
+      },
+      "output_code": "09021010",
+      "explanation": "Green tea (not fermented) in immediate packings with contents not exceeding 25 g."
+    },
+    {
+      "rule_id": "TEA-002",
+      "priority": 99,
+      "conditions": {
+        "tea_type": "green",
+        "presentation": "immediate_packing",
+        "min_weight_exclusive_g": 25,
+        "max_weight_g": 1000
+      },
+      "output_code": "09021020",
+      "explanation": "Green tea (not fermented) in immediate packings exceeding 25 g but not exceeding 1 kg."
+    },
+    {
+      "rule_id": "TEA-003",
+      "priority": 98,
+      "conditions": {
+        "tea_type": "green",
+        "presentation": "immediate_packing",
+        "min_weight_exclusive_g": 1000,
+        "max_weight_g": 3000
+      },
+      "output_code": "09021030",
+      "explanation": "Green tea (not fermented) in immediate packings exceeding 1 kg but not exceeding 3 kg."
+    },
+    {
+      "rule_id": "TEA-004",
+      "priority": 97,
+      "conditions": {
+        "tea_type": "green",
+        "presentation": "immediate_packing",
+        "fallback_within_090210": true
+      },
+      "output_code": "09021090",
+      "explanation": "Other green tea (not fermented) under 0902 10."
+    },
+    {
+      "rule_id": "TEA-005",
+      "priority": 96,
+      "conditions": {
+        "tea_type": "green",
+        "presentation": "packet",
+        "min_weight_exclusive_g": 3000,
+        "max_weight_g": 20000
+      },
+      "output_code": "09022010",
+      "explanation": "Other green tea (not fermented), packets exceeding 3 kg but not exceeding 20 kg."
+    },
+    {
+      "rule_id": "TEA-006",
+      "priority": 95,
+      "conditions": {
+        "tea_type": "green",
+        "presentation": "bulk"
+      },
+      "output_code": "09022020",
+      "explanation": "Green tea in bulk."
+    },
+    {
+      "rule_id": "TEA-007",
+      "priority": 94,
+      "conditions": {
+        "tea_type": "green",
+        "form": "agglomerated"
+      },
+      "output_code": "09022030",
+      "explanation": "Green tea agglomerated in forms such as ball, brick and tablets."
+    },
+    {
+      "rule_id": "TEA-008",
+      "priority": 93,
+      "conditions": {
+        "tea_type": "green",
+        "form": "waste"
+      },
+      "output_code": "09022040",
+      "explanation": "Green tea waste."
+    },
+    {
+      "rule_id": "TEA-009",
+      "priority": 1,
+      "conditions": {
+        "tea_type": "green",
+        "fallback_within_090220": true
+      },
+      "output_code": "09022090",
+      "explanation": "Other green tea (not fermented) under 0902 20."
+    },
+    {
+      "rule_id": "TEA-010",
+      "priority": 90,
+      "conditions": {
+        "tea_type": [
+          "black",
+          "partly_fermented"
+        ],
+        "presentation": "immediate_packing",
+        "max_weight_g": 25
+      },
+      "output_code": "09023010",
+      "explanation": "Black tea (fermented) and partly fermented tea in immediate packings not exceeding 25 g."
+    },
+    {
+      "rule_id": "TEA-011",
+      "priority": 89,
+      "conditions": {
+        "tea_type": [
+          "black",
+          "partly_fermented"
+        ],
+        "presentation": "immediate_packing",
+        "min_weight_exclusive_g": 25,
+        "max_weight_g": 1000
+      },
+      "output_code": "09023020",
+      "explanation": "Black tea (fermented) and partly fermented tea in immediate packings exceeding 25 g but not exceeding 1 kg."
+    },
+    {
+      "rule_id": "TEA-012",
+      "priority": 88,
+      "conditions": {
+        "tea_type": [
+          "black",
+          "partly_fermented"
+        ],
+        "presentation": "immediate_packing",
+        "min_weight_exclusive_g": 1000,
+        "max_weight_g": 3000
+      },
+      "output_code": "09023030",
+      "explanation": "Black tea (fermented) and partly fermented tea in immediate packings exceeding 1 kg but not exceeding 3 kg."
+    },
+    {
+      "rule_id": "TEA-013",
+      "priority": 87,
+      "conditions": {
+        "tea_type": [
+          "black",
+          "partly_fermented"
+        ],
+        "presentation": "immediate_packing",
+        "fallback_within_090230": true
+      },
+      "output_code": "09023090",
+      "explanation": "Other black tea (fermented) and partly fermented tea under 0902 30."
+    },
+    {
+      "rule_id": "TEA-014",
+      "priority": 86,
+      "conditions": {
+        "tea_type": [
+          "black",
+          "partly_fermented"
+        ],
+        "presentation": "packet",
+        "min_weight_exclusive_g": 3000,
+        "max_weight_g": 20000
+      },
+      "output_code": "09024010",
+      "explanation": "Other black tea/partly fermented tea, content exceeding 3 kg but not exceeding 20 kg."
+    },
+    {
+      "rule_id": "TEA-015",
+      "priority": 85,
+      "conditions": {
+        "tea_type": [
+          "black",
+          "partly_fermented"
+        ],
+        "presentation": "bulk",
+        "form": "leaf"
+      },
+      "output_code": "09024020",
+      "explanation": "Black tea, leaf in bulk."
+    },
+    {
+      "rule_id": "TEA-016",
+      "priority": 84,
+      "conditions": {
+        "tea_type": [
+          "black",
+          "partly_fermented"
+        ],
+        "presentation": "bulk",
+        "form": "dust"
+      },
+      "output_code": "09024030",
+      "explanation": "Black tea, dust in bulk."
+    },
+    {
+      "rule_id": "TEA-017",
+      "priority": 83,
+      "conditions": {
+        "tea_type": [
+          "black",
+          "partly_fermented"
+        ],
+        "form": "tea_bags"
+      },
+      "output_code": "09024040",
+      "explanation": "Tea bags."
+    },
+    {
+      "rule_id": "TEA-018",
+      "priority": 82,
+      "conditions": {
+        "tea_type": [
+          "black",
+          "partly_fermented"
+        ],
+        "form": "agglomerated"
+      },
+      "output_code": "09024050",
+      "explanation": "Black tea agglomerated in forms such as ball, brick and tablets."
+    },
+    {
+      "rule_id": "TEA-019",
+      "priority": 81,
+      "conditions": {
+        "tea_type": [
+          "black",
+          "partly_fermented"
+        ],
+        "form": "waste"
+      },
+      "output_code": "09024060",
+      "explanation": "Black tea waste."
+    },
+    {
+      "rule_id": "TEA-020",
+      "priority": 1,
+      "conditions": {
+        "tea_type": [
+          "black",
+          "partly_fermented"
+        ],
+        "fallback_within_090240": true
+      },
+      "output_code": "09024090",
+      "explanation": "Other black tea/partly fermented tea under 0902 40."
+    }
+  ]
+}

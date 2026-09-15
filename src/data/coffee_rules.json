@@ -1,0 +1,333 @@
+{
+  "source_section": "0901 — Coffee",
+  "source_note": "Normalized rule specifications derived strictly from Heading 0901 schedule. Each rule contains internal IDs, target HS codes, source descriptions, explicitly supported conditions, and source references. Rules with ambiguous fallback boundaries are annotated.",
+  "required_attributes": [
+    "product_type",
+    "roasted",
+    "decaffeinated",
+    "form",
+    "grade",
+    "presentation"
+  ],
+  "rules": [
+    {
+      "rule_id": "COF-001",
+      "priority": 100,
+      "conditions": {
+        "product_type": "coffee",
+        "roasted": false,
+        "decaffeinated": false,
+        "form": "arabica_plantation",
+        "grade": "A"
+      },
+      "output_code": "09011111",
+      "description": "Arabica plantation, A Grade.",
+      "source_reference": "Heading 0901: 0901 11 11"
+    },
+    {
+      "rule_id": "COF-002",
+      "priority": 99,
+      "conditions": {
+        "product_type": "coffee",
+        "roasted": false,
+        "decaffeinated": false,
+        "form": "arabica_plantation",
+        "grade": "B"
+      },
+      "output_code": "09011112",
+      "description": "Arabica plantation, B Grade.",
+      "source_reference": "Heading 0901: 0901 11 12"
+    },
+    {
+      "rule_id": "COF-003",
+      "priority": 98,
+      "conditions": {
+        "product_type": "coffee",
+        "roasted": false,
+        "decaffeinated": false,
+        "form": "arabica_plantation",
+        "grade": "C"
+      },
+      "output_code": "09011113",
+      "description": "Arabica plantation, C Grade.",
+      "source_reference": "Heading 0901: 0901 11 13"
+    },
+    {
+      "rule_id": "COF-004",
+      "priority": 97,
+      "conditions": {
+        "product_type": "coffee",
+        "roasted": false,
+        "decaffeinated": false,
+        "form": "arabica_plantation",
+        "grade": "other"
+      },
+      "output_code": "09011119",
+      "description": "Arabica plantation, other.",
+      "source_reference": "Heading 0901: 0901 11 19"
+    },
+    {
+      "rule_id": "COF-005",
+      "priority": 95,
+      "conditions": {
+        "product_type": "coffee",
+        "roasted": false,
+        "decaffeinated": false,
+        "form": "arabica_cherry",
+        "grade": "AB"
+      },
+      "output_code": "09011121",
+      "description": "Arabica Cherry, AB Grade.",
+      "source_reference": "Heading 0901: 0901 11 21"
+    },
+    {
+      "rule_id": "COF-006",
+      "priority": 94,
+      "conditions": {
+        "product_type": "coffee",
+        "roasted": false,
+        "decaffeinated": false,
+        "form": "arabica_cherry",
+        "grade": "PB"
+      },
+      "output_code": "09011122",
+      "description": "Arabica Cherry, PB Grade.",
+      "source_reference": "Heading 0901: 0901 11 22"
+    },
+    {
+      "rule_id": "COF-007",
+      "priority": 93,
+      "conditions": {
+        "product_type": "coffee",
+        "roasted": false,
+        "decaffeinated": false,
+        "form": "arabica_cherry",
+        "grade": "C"
+      },
+      "output_code": "09011123",
+      "description": "Arabica Cherry, C Grade.",
+      "source_reference": "Heading 0901: 0901 11 23"
+    },
+    {
+      "rule_id": "COF-008",
+      "priority": 92,
+      "conditions": {
+        "product_type": "coffee",
+        "roasted": false,
+        "decaffeinated": false,
+        "form": "arabica_cherry",
+        "grade": "BBB"
+      },
+      "output_code": "09011124",
+      "description": "Arabica Cherry, B/B/B Grade.",
+      "source_reference": "Heading 0901: 0901 11 24"
+    },
+    {
+      "rule_id": "COF-009",
+      "priority": 91,
+      "conditions": {
+        "product_type": "coffee",
+        "roasted": false,
+        "decaffeinated": false,
+        "form": "arabica_cherry",
+        "grade": "other"
+      },
+      "output_code": "09011129",
+      "description": "Arabica Cherry, other.",
+      "source_reference": "Heading 0901: 0901 11 29"
+    },
+    {
+      "rule_id": "COF-010",
+      "priority": 90,
+      "conditions": {
+        "product_type": "coffee",
+        "roasted": false,
+        "decaffeinated": false,
+        "form": "rob_cherry",
+        "grade": "AB"
+      },
+      "output_code": "09011141",
+      "description": "Rob cherry, AB Grade.",
+      "source_reference": "Heading 0901: 0901 11 41"
+    },
+    {
+      "rule_id": "COF-011",
+      "priority": 89,
+      "conditions": {
+        "product_type": "coffee",
+        "roasted": false,
+        "decaffeinated": false,
+        "form": "rob_cherry",
+        "grade": "PB"
+      },
+      "output_code": "09011142",
+      "description": "Rob cherry, PB Grade.",
+      "source_reference": "Heading 0901: 0901 11 42"
+    },
+    {
+      "rule_id": "COF-012",
+      "priority": 88,
+      "conditions": {
+        "product_type": "coffee",
+        "roasted": false,
+        "decaffeinated": false,
+        "form": "rob_cherry",
+        "grade": "C"
+      },
+      "output_code": "09011143",
+      "description": "Rob cherry, C Grade.",
+      "source_reference": "Heading 0901: 0901 11 43"
+    },
+    {
+      "rule_id": "COF-013",
+      "priority": 87,
+      "conditions": {
+        "product_type": "coffee",
+        "roasted": false,
+        "decaffeinated": false,
+        "form": "rob_cherry",
+        "grade": "BBB"
+      },
+      "output_code": "09011144",
+      "description": "Rob cherry, B/B/B Grade.",
+      "source_reference": "Heading 0901: 0901 11 44"
+    },
+    {
+      "rule_id": "COF-014",
+      "priority": 86,
+      "conditions": {
+        "product_type": "coffee",
+        "roasted": false,
+        "decaffeinated": false,
+        "form": "rob_cherry",
+        "presentation": "bulk"
+      },
+      "output_code": "09011145",
+      "description": "Rob cherry, bulk.",
+      "source_reference": "Heading 0901: 0901 11 45"
+    },
+    {
+      "rule_id": "COF-015",
+      "priority": 85,
+      "conditions": {
+        "product_type": "coffee",
+        "roasted": false,
+        "decaffeinated": false,
+        "form": "rob_cherry",
+        "grade": "other"
+      },
+      "output_code": "09011149",
+      "description": "Rob cherry, other.",
+      "source_reference": "Heading 0901: 0901 11 49"
+    },
+    {
+      "rule_id": "COF-016",
+      "priority": 80,
+      "conditions": {
+        "product_type": "coffee",
+        "roasted": false,
+        "decaffeinated": false,
+        "fallback_within_090111": true
+      },
+      "output_code": "09011190",
+      "description": "Other.",
+      "source_reference": "Heading 0901: 0901 11 90",
+      "notes": "Requires source clarification regarding varieties outside Arabica plantation/cherry and Robusta cherry."
+    },
+    {
+      "rule_id": "COF-017",
+      "priority": 75,
+      "conditions": {
+        "product_type": "coffee",
+        "roasted": false,
+        "decaffeinated": true
+      },
+      "output_code": "09011200",
+      "description": "Coffee, not roasted, decaffeinated.",
+      "source_reference": "Heading 0901: 0901 12 00"
+    },
+    {
+      "rule_id": "COF-018",
+      "priority": 70,
+      "conditions": {
+        "product_type": "coffee",
+        "roasted": true,
+        "decaffeinated": false,
+        "presentation": "bulk"
+      },
+      "output_code": "09012110",
+      "description": "Coffee, roasted, non-decaffeinated, in bulk packing.",
+      "source_reference": "Heading 0901: 0901 21 10"
+    },
+    {
+      "rule_id": "COF-019",
+      "priority": 69,
+      "conditions": {
+        "product_type": "coffee",
+        "roasted": true,
+        "decaffeinated": false,
+        "presentation": "other"
+      },
+      "output_code": "09012190",
+      "description": "Coffee, roasted, non-decaffeinated, other.",
+      "source_reference": "Heading 0901: 0901 21 90"
+    },
+    {
+      "rule_id": "COF-020",
+      "priority": 65,
+      "conditions": {
+        "product_type": "coffee",
+        "roasted": true,
+        "decaffeinated": true,
+        "presentation": "bulk"
+      },
+      "output_code": "09012210",
+      "description": "Coffee, roasted, decaffeinated, in bulk packing.",
+      "source_reference": "Heading 0901: 0901 22 10"
+    },
+    {
+      "rule_id": "COF-021",
+      "priority": 64,
+      "conditions": {
+        "product_type": "coffee",
+        "roasted": true,
+        "decaffeinated": true,
+        "presentation": "other"
+      },
+      "output_code": "09012290",
+      "description": "Coffee, roasted, decaffeinated, other.",
+      "source_reference": "Heading 0901: 0901 22 90"
+    },
+    {
+      "rule_id": "COF-022",
+      "priority": 60,
+      "conditions": {
+        "product_type": "husks_and_skins"
+      },
+      "output_code": "09019010",
+      "description": "Coffee husks and skins.",
+      "source_reference": "Heading 0901: 0901 90 10"
+    },
+    {
+      "rule_id": "COF-023",
+      "priority": 59,
+      "conditions": {
+        "product_type": "substitutes_containing_coffee"
+      },
+      "output_code": "09019020",
+      "description": "Coffee substitutes containing coffee.",
+      "source_reference": "Heading 0901: 0901 90 20"
+    },
+    {
+      "rule_id": "COF-024",
+      "priority": 50,
+      "conditions": {
+        "fallback_within_090190": true
+      },
+      "output_code": "09019090",
+      "description": "Other.",
+      "source_reference": "Heading 0901: 0901 90 90",
+      "notes": "Requires source clarification regarding other products under 0901 90."
+    }
+  ]
+}
