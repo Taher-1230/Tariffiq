@@ -12,6 +12,7 @@
     "server": "tsx --env-file=.env server/index.ts",
     "server:dev": "tsx --watch --env-file=.env server/index.ts",
     "server:build": "tsc -p tsconfig.server.json",
+    "server:start": "node server/dist/server/index.js",
     "server:prod": "node --env-file=.env server/dist/server/index.js",
     "test:server": "vitest run --config vitest.server.config.ts"
   },
